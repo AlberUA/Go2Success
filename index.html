@@ -1,0 +1,1699 @@
+<!doctype html>
+<html lang="uk">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="shortcut icon" href="./assets/img/favicon.ico">
+		<title>Go2Success</title>
+		<style>
+			@import url(https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap);*{padding:0;margin:0;border:0}*,::after,::before{box-sizing:border-box}::after,::before{display:inline-block}body,html{height:100%}body{line-height:1;scrollbar-gutter:stable;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}button,input{font-family:inherit;font-size:inherit;line-height:inherit;color:inherit;background-color:transparent}input{width:100%}label{display:inline-block}a{display:inline-block;color:inherit;text-decoration:none}ul li{list-style:none}img{max-width:100%;height:auto;vertical-align:middle}h1,h2,h3{font-weight:inherit;font-size:inherit}@font-face{font-family:iconfont;font-display:swap;src:url("assets/fonts/iconfont.woff2?0b4b17e1d0c1c3e781cc09af938f2934") format("woff2")}[class*="--icon-"]::before{font-family:iconfont}[class*="--icon-arrow"]::before{content:"\f102"}body{min-width:320px;color:#313131;font-family:Montserrat,sans-serif;font-size:16px;background-color:#fff;opacity:0}.wrapper{min-height:100%;display:flex;flex-direction:column;overflow:clip}.wrapper>main{flex:1 1 auto}.wrapper>*{min-width:0}[class*=__container]{max-width:1220px;margin:0 auto;padding-left:15px;padding-right:15px}.titleblock__title{font-weight:600;line-height:110%}.titleblock__title span{color:#205e8c}.titleblock__title--yellow-white{color:#fff}.titleblock__title--yellow-white span{color:#ffd15f}[data-fls-spollers] summary{list-style:none}[data-fls-spollers] summary::-webkit-details-marker{display:none}.spollers{display:grid}.spollers__item{font-size:1.25rem}.spollers__item{opacity:0;transform:translate(0,50px)}.spollers__title{width:100%;text-align:left;padding:30px;border-radius:30px;position:relative;list-style:none}.spollers__title{font-weight:600;background-color:#fff}.spollers__title::-webkit-details-marker{display:none}.spollers__body{line-height:150%;text-align:left;padding:10px 30px 30px}.spollers__body{border-radius:5px;background-color:#fff4ce;position:relative;z-index:2}@media (max-width:61.99875em){.menu__body{position:fixed;width:86%;height:100svh;right:-100%;top:0;overflow:auto;padding:20px 25px 30px 30px;background-color:#fff;border-radius:30px 0 0 30px;overflow:hidden;display:flex;flex-direction:column;align-items:start;gap:45px}.menu__body::before{content:"";position:fixed;width:100%;height:70px;right:-100%;top:0;z-index:2}}.menu__list{display:flex;flex-wrap:wrap;align-items:center}.menu__list{row-gap:3px}.menu__link{font-weight:500;line-height:140%;position:relative}.menu__link::after{content:"";width:0;height:1px;position:absolute;left:50%;bottom:0;background-color:#205e8c}.icon-menu{display:none}@media (max-width:61.99875em){.menu__list{flex-direction:column;align-items:start}.icon-menu{display:block;position:relative;width:1.125rem;height:.75rem;z-index:5}.icon-menu span,.icon-menu::after,.icon-menu::before{content:"";position:absolute;right:20px;width:100%;height:2px;background-color:#000}.icon-menu::before{top:0}.icon-menu::after{bottom:0}.icon-menu span{top:calc(50% - 1px)}}.header{position:fixed;top:13px;left:0;right:0;width:100%;z-index:50;opacity:0;visibility:hidden;top:-80px}@media (max-width:47.99875em){.menu__body{padding:13px 25px 30px 30px}.menu__link{font-size:16px;font-weight:600;line-height:150%}.header{top:14px}}.header__inner{max-width:1380px;margin:0 auto;border-radius:30px}.header__container{display:flex;align-items:center;gap:15px}@media (min-width:61.99875em){.header__container{justify-content:space-between}}.header__logo img{max-width:100%}.header__actions{display:flex;align-items:center}@media (max-width:61.99875em){.header__actions{flex:1 1 auto;justify-content:end}.header__languages{align-self:end;margin-right:45px}}@media (min-width:61.99875em){.header__contacts{display:none}}@media (max-width:31.25em){.header__button{width:100%;justify-content:center;align-items:center}}.languages-header{position:relative;z-index:3}.languages-header__title{background-color:#fff;border-radius:21px;padding:10px 21px;font-size:16px!important;font-weight:400!important;line-height:140%}@media (max-width:47.99875em){.languages-header__title{font-size:14px;padding:4px 14px}}.languages-header__title{display:flex;gap:6px}.languages-header__title span::before{font-size:12px;transform:rotate(90deg)}.languages-header__body{background-color:#fff;border:none!important;border-radius:0 0 15px 15px;padding:15px;position:absolute;z-index:3;top:100%;left:0;width:100%}.languages-header__list{display:grid;gap:20px;justify-items:center}.contacts-header__title{font-weight:600;line-height:150%;color:#205e8c}.contacts-header__mail,.contacts-header__phone{font-size:14px;line-height:140%}input[type=tel],input[type=text]{-webkit-appearance:none;-moz-appearance:none;appearance:none}.input{border-radius:100px;width:100%;display:block;padding:13px 20px;caret-color:inherit;letter-spacing:-.02em;background-color:rgba(255,255,255,.2);color:#fff}@media (max-width:37.5em){.input{padding:12px 11px;font-size:14px}}.button{display:inline-flex;justify-content:center;align-items:center;padding:12px 60px;border-radius:30px;background-color:#205e8c;color:#fff}.button{font-weight:600;line-height:140%;text-align:center}.button--light{border:1px solid #205e8c;background-color:transparent;color:#205e8c}.button--yellow{background-color:#ffd15f;color:#313131}.hero__container{position:relative}.hero__container::before{content:"";position:absolute}.hero__container::before{left:-17.394958%}.hero__container::before{background:url("assets/img/hero/bg-deco.svg") center/cover no-repeat;opacity:0}.hero__body{display:flex;align-items:center;gap:45px}@media (max-width:61.99875em){.hero__body{flex-direction:column;gap:30px}}.hero__body{position:relative;z-index:2}.hero__content{flex:1 1 auto}.hero__media{flex:0 0 43.4453781513%;position:relative}.hero__media::before{content:"";position:absolute;bottom:-9%;right:1.934236%;width:42.553191%;height:46.987952%;background:url("assets/img/hero/eclipse.svg") center/contain no-repeat;opacity:0}@media (max-width:29.99875em){.hero__media{max-width:87.5%}}.hero__image{width:100%;height:auto;aspect-ratio:517/415;position:relative;z-index:2;opacity:0;transform:translate(0,30px)}.content-hero{display:grid;gap:35px}.content-hero__title{font-weight:600;line-height:110%;letter-spacing:.01em;max-width:400px;transform:translate(0,30px);opacity:0}.content-hero__text{font-weight:500;line-height:150%;letter-spacing:-.01em;color:#696e72;max-width:590px;transform:translate(0,30px);opacity:0}.content-hero__buttons{display:flex;align-items:center}.content-hero__buttons{opacity:0;transform:translate(0,30px)}@media (max-width:47.99875em){.content-hero__buttons{flex-direction:column;gap:10px}.content-hero__button{width:100%;justify-content:center;align-items:center}}.advantages-hero__item{backdrop-filter:blur(4px);background-color:rgba(255,255,255,.7)}.advantages-hero__item{line-height:150%;letter-spacing:-.01em;font-weight:700}.advantages-hero__item{border-style:solid;border-color:#fff}.advantages-hero__item{position:absolute;z-index:3}.advantages-hero__item::after{content:"";position:absolute}.advantages-hero__item::after{border-radius:50%;background-color:#fff}.advantages-hero__item::after{border-style:solid}.advantages-hero__item{opacity:0;transform:translate(50px,0)}.advantages-hero__item--1{left:-6.769826%;bottom:-6.746988%}.advantages-hero__item--1::after{border-color:#ffd15f}.advantages-hero__item--2{right:14.50677%;bottom:1.686747%}.advantages-hero__item--2::after{border-color:#63a8da}.advantages-hero__item--3{right:.967118%;bottom:20.481928%}.advantages-hero__item--3::after{border-color:#205e8c}.methodology__box{max-width:1380px;margin:0 auto;position:relative}.methodology__box::before{content:"";position:absolute;left:0;bottom:0;width:100%;height:83.350462%;background-color:#63a8da;border-radius:30px}.methodology__banner:not(:last-child){margin-bottom:55px}.methodology__body{color:#fff;display:flex;gap:15px}@media (max-width:47.99875em){.methodology__body{flex-direction:column;gap:50px}}.methodology__body{position:relative;z-index:2}.methodology__content{flex:0 1 50%}.methodology__items{flex:0 1 50%;display:grid;justify-items:end;gap:100px}@media (max-width:47.99875em){.methodology__items{justify-items:center}}.methodology__items{position:relative}.methodology__item:nth-child(2n){justify-self:start}.methodology__arrow{position:absolute}.methodology__arrow--1{top:17.578125%;right:0;width:28.620102%;aspect-ratio:168/163}@media (max-width:47.99875em){.methodology__arrow--1{right:50%;transform:translateX(50%)}}.methodology__arrow--1{opacity:0;transform:translateY(-30px)}.methodology__arrow--2{left:4.770017%}.methodology__arrow--2{width:22.998296%;aspect-ratio:135/124}@media (max-width:29.99875em){.methodology__arrow--2{left:50%;top:-80px;transform:translateX(-50%)}}.methodology__arrow--2{opacity:0;transform:translateY(-30px)}.banner{position:relative;z-index:2}.banner__body{flex:0 0 88.6554621849%;background-color:#fff;border-radius:30px;box-shadow:0 11px 30px 0 rgba(32,94,140,.2)}.banner__body{display:flex;align-items:center;position:relative}@media (max-width:47.99875em){.banner__body{flex-direction:column;padding-bottom:0}}.banner__body{opacity:0}.banner__content{flex:0 1 51.6%}@media (max-width:47.99875em){.banner__content{flex:1 1 auto}}@media (min-width:47.99875em){.banner__picture{position:absolute;right:2.843602%;top:-50px;width:33.175355%}.content-methodology::before{content:"";position:absolute;top:50%;left:50%;transform:translate(0,-50%);width:112.436975%;height:auto;aspect-ratio:1338/1325;background:url("assets/img/methodology/ellipse.svg") center/contain no-repeat}}.banner__image{width:100%;height:auto;aspect-ratio:350/360;opacity:0;transform:translate(-50px,50px)}.content-banner{display:grid}.content-banner{justify-items:start}.content-banner__title{font-weight:600;line-height:110%}.content-banner__title span{color:#205e8c}.content-banner__title{opacity:0;transform:translateY(50px)}.content-banner__text{font-size:14px;line-height:140%;opacity:0;transform:translateY(50px)}@media (max-width:29.99875em){.content-banner__button{width:100%;justify-content:center;align-items:center}}.content-banner__button{opacity:0;transform:translateY(50px)}.content-methodology{position:relative}.content-methodology__title{position:relative;z-index:2;opacity:0;transform:translateY(50px)}.content-methodology__text{position:relative;z-index:2}.content-methodology__text{line-height:140%}.content-methodology__text span{font-weight:700}.content-methodology__text ul li{position:relative;padding-left:10px}.content-methodology__text ul li::before{content:"";position:absolute;left:0;top:50%;transform:translateY(-50%);width:3px;height:3px;background-color:#fff;border-radius:50%}.content-methodology__text{opacity:0;transform:translateY(50px)}.item-methodology{display:flex;align-items:center}@media (max-width:47.99875em){.item-methodology{align-items:start}}@media (max-width:29.99875em){.item-methodology:nth-child(2n){flex-direction:row-reverse}}.item-methodology{position:relative;opacity:0}.item-methodology--1{transform:translateX(50px)}.item-methodology--2{transform:translateX(-50px)}.item-methodology--3{transform:translateX(50px)}.item-methodology__icon{flex:0 0 100px}.item-methodology__icon{background-color:#fff;border-radius:50%;display:flex;justify-content:center;align-items:center}@media (max-width:29.99875em){.item-methodology__icon picture{display:flex;justify-content:center;align-items:center}.item-methodology__icon img{width:70%;aspect-ratio:36/52;height:auto}}.item-methodology__body{flex:0 0 300px;line-height:140%}.item-methodology__title{font-weight:600;color:#ffd15f}.for-whom__container{position:relative}@media (min-width:61.99875em){.for-whom__container::before{content:"";position:absolute;top:-92.461538%;right:-34.705882%;width:63.02521%;height:auto;aspect-ratio:738/1325;background:url("assets/img/for-whom/ellipse.svg") center/contain no-repeat}}.for-whom__title:not(:last-child){margin-bottom:30px}.for-whom__title{opacity:0;transform:translateY(30px)}.for-whom__items{display:grid;grid-template-columns:repeat(4,1fr);gap:60px}@media (max-width:61.99875em){.for-whom__items{grid-template-columns:repeat(2,1fr)}}@media (max-width:29.99875em){.item-methodology__body{flex:1 1 auto}.for-whom__container::after{content:"";position:absolute;top:0;right:-30%;width:81.25%;height:auto;aspect-ratio:1/1;background:url("assets/img/for-whom/ellipse_mob.svg") center/cover no-repeat}.for-whom__items{grid-template-columns:1fr}}.for-whom__items{position:relative;z-index:2}.item-for-whom{display:grid}@media (min-width:47.99875em){.item-for-whom .item-for-whom__image img{opacity:0;transform:translateY(50px) translateX(-50%)}}.item-for-whom__image{width:100%;height:auto;aspect-ratio:252/312;border-radius:0 0 100vw 100vw;overflow:hidden;position:relative}.item-for-whom__image::before{content:"";position:absolute;bottom:0;left:0;width:100%;aspect-ratio:250/250;border-radius:50%;background:url("assets/img/for-whom/bg.svg") center no-repeat #205e8c}.item-for-whom__image img{position:absolute;left:50%;bottom:0;width:80%;transform:translateX(-50%);z-index:2;aspect-ratio:201/298;object-fit:contain}.item-for-whom__body{display:grid;gap:15px;line-height:140%}.item-for-whom__title{font-weight:600}.item-for-whom__text{font-size:14px}body::after{content:"";background-color:rgba(0,0,0,.5);position:fixed;width:100%;height:100%;top:0;left:0;opacity:0;z-index:149}[data-fls-popup]{position:fixed;top:0;left:0;bottom:0;right:0;padding:30px 10px;visibility:hidden}[data-fls-popup-wrapper]{display:flex;flex-direction:column;align-items:center;min-height:100%;flex:1 1 auto;width:100%;display:flex;justify-content:center;align-items:center}[data-fls-popup-body]{visibility:hidden;transform:scale(0);background-color:#63a8da;color:#fff;padding:20px;width:100%;max-width:1190px;border-radius:20px}.popup__close{position:absolute;z-index:3;top:20px;right:20px}.popup-lesson__wrapper{position:relative}.popup-lesson__body{border-radius:30px;padding:40px 40px 20px}.popup-lesson__body{position:relative}@media (min-width:75em){.popup-lesson__body::before{content:"";position:absolute;z-index:2;bottom:27px;right:462px;width:13.613445%;height:auto;aspect-ratio:162/122;background:url("assets/img/trial-lesson/arrow.svg") center/cover no-repeat}}.popup-lesson__body::after{content:"";position:absolute;bottom:-19.379845%;right:0;width:48.067227%;height:auto;aspect-ratio:572/572;background:url("assets/img/trial-lesson/bg_light.svg") center/contain no-repeat}.popup-lesson__content{max-width:514px}@media (max-width:61.99875em){.popup-lesson__content{max-width:51.814516%}}.popup-lesson__title:not(:last-child){margin-bottom:10px}.popup-lesson__text{font-weight:500;line-height:150%;letter-spacing:-.01em}.popup-lesson__form{position:relative;z-index:2}.popup-lesson__image{position:absolute;z-index:2;bottom:0;right:0;width:42.773109%}.popup-lesson__image img{width:auto;height:100%;aspect-ratio:509/589}@media (max-width:37.5em){.popup-lesson__body::after{bottom:10%;right:50%;transform:translateX(50%)}.popup-lesson__box{display:grid}.popup-lesson__content{max-width:100%}.popup-lesson__image{position:relative;width:79.375%;bottom:-20px;right:-9.375%}.popup-lesson__image img{aspect-ratio:254/293}}.form-popup-lesson{display:grid}@media (max-width:29.99875em){.popup-prices{padding:30px 0}}.popup-prices__wrapper{position:relative}.popup-prices__body{max-width:1380px;border-radius:30px;padding:60px 95px}.popup-prices__title{font-weight:600;line-height:110%;text-align:center}.popup-prices__title span{color:#ffd15f}.popup-prices__title:not(:last-child){margin-bottom:20px}.popup-prices__text{line-height:140%;text-align:center}.popup-prices__items{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}@media (max-width:61.99875em){.popup-prices__items{grid-template-columns:repeat(2,1fr)}}@media (max-width:37.5em){.popup-prices__items{grid-template-columns:1fr}}.item-popup-prices{background-color:#fff;color:#313131;box-shadow:1px 1px 4px 0 rgba(0,0,0,.25);border-radius:30px}.item-popup-prices{display:flex;flex-direction:column;position:relative}.item-popup-prices__info{flex:1 1 auto}.item-popup-prices--gift .item-popup-prices__info:not(:last-child){margin-bottom:10px}.item-popup-prices__title{font-weight:600;line-height:140%;display:flex;align-items:center;gap:10px}.item-popup-prices__title span{font-weight:700;line-height:140%;color:#ffd15f}.item-popup-prices--gift .item-popup-prices__title:not(:last-child){margin-bottom:10px}.item-popup-prices__gift{font-size:14px;font-weight:500;line-height:140%}.item-popup-prices__gift span{font-weight:600}.item-popup-prices__gift:not(:last-child){margin-bottom:10px}.item-popup-prices__gift-icon{position:absolute;top:7.575758%;right:2.610966%}.item-popup-prices__gift-icon{font-weight:600;transform:rotate(9deg)}.item-popup-prices__price{font-weight:600;line-height:140%}.item-popup-prices__button{width:100%}.contacts-popup-prices{display:grid;justify-items:center}.contacts-popup-prices__title{line-height:140%;text-align:center}@media (max-width:29.99875em){.contacts-popup-prices__title{text-align:left}.contacts-popup-prices__button{width:100%}}
+		</style>
+		<script type="module" crossorigin="" src="./js/index.min.js?v=1761986318087"></script>
+		<link rel="modulepreload" crossorigin="" href="./js/common.min.js?v=1761986318087">
+		<link rel="stylesheet" crossorigin="" href="./css/index.min.css?v=1761986318087" media="print" onload="this.media='all'">
+	</head>
+	<body>
+		<div class="wrapper">
+			<header data-fls-header="" data-fls-header-scroll="" data-fls-header-scroll-show="200" class="header">
+				<div class="header__inner">
+					<div class="header__container">
+						<a href="index.html" class="header__logo">
+							<img src="./assets/img/logo.svg" alt="logo">
+						</a>
+						<div class="header__menu menu">
+							<!-- <button type="button" data-fls-menu class="menu__icon icon-menu"><span></span></button> -->
+							<nav class="menu__body">
+								<ul class="menu__list">
+									<li class="menu__item">
+										<a href="#" data-fls-scrollto-header="" data-fls-scrollto=".tariffs" class="menu__link">Тарифи</a>
+									</li>
+									<li class="menu__item">
+										<a href="#" data-fls-scrollto-header="" data-fls-scrollto=".methodology" class="menu__link">Про школу</a>
+									</li>
+									<li class="menu__item">
+										<a href="#" data-fls-scrollto-header="" data-fls-scrollto=".reviews" class="menu__link">Відгуки</a>
+									</li>
+									<li class="menu__item">
+										<a href="#" data-fls-scrollto-header="" data-fls-scrollto=".faq" class="menu__link">FAQ</a>
+									</li>
+									<li class="menu__item">
+										<a href="#" data-fls-scrollto-header="" data-fls-scrollto=".footer" class="menu__link">Контакти</a>
+									</li>
+								</ul>
+							</nav>
+						</div>
+						<div class="header__actions">
+							<div data-fls-spollers="" data-fls-dynamic=".menu__body, 991.98, 0" class="spollers header__languages languages-header">
+								<details class="spollers__item">
+									<summary data-fls-spollers-close="" class="spollers__title languages-header__title">
+										Ua
+										<span class="--icon-arrow"></span>
+									</summary>
+									<div class="spollers__body languages-header__body">
+										<ul class="languages-header__list">
+											<li class="languages-header__item">
+												<a href="#" class="languages-header__link">Ru</a>
+											</li>
+											<li class="languages-header__item">
+												<a href="#" class="languages-header__link">En</a>
+											</li>
+										</ul>
+									</div>
+								</details>
+							</div>
+							<div data-fls-dynamic=".menu__body, 991.98, 2" class="header__contacts contacts-header">
+								<div class="contacts-header__title">Контакти:</div>
+								<a href="tel:0954744263" class="contacts-header__phone">095 474 42 63</a>
+								<a href="mailto:go2success.school@gmail.com" class="contacts-header__mail">go2success.school@gmail.com</a>
+							</div>
+							<a href="#" data-fls-button="" data-fls-dynamic=".menu__body, 991.98" data-fls-scrollto-header="" data-fls-scrollto=".tariffs" class="header__button button">Почати навчання</a>
+							<button type="button" data-fls-menu="" class="icon-menu">
+								<span></span>
+							</button>
+						</div>
+					</div>
+				</div>
+			</header>
+			<main class="page page--index">
+				<section class="page__hero hero">
+					<div class="hero__container">
+						<div class="hero__body">
+							<div class="hero__content content-hero">
+								<h1 class="content-hero__title">Speak up. Go2Success</h1>
+								<div class="content-hero__text">
+									<p>
+										Онлайн школа англійської, де ти починаєш говорити впевнено, природно і з натхненням
+									</p>
+								</div>
+								<div class="content-hero__buttons">
+									<a href="#" data-fls-scrollto-header="" data-fls-scrollto=".tariffs" class="content-hero__button button">Почати навчання</a>
+									<a href="#" data-fls-scrollto-header="" data-fls-scrollto=".about" class="content-hero__button button button--light">Дивитись всі тарифи</a>
+								</div>
+							</div>
+							<div class="hero__media">
+								<picture>
+									<img class="hero__image" alt="Image" src="./assets/img/hero/image.webp">
+								</picture>
+								<div class="hero__advantages advantages-hero">
+									<div class="advantages-hero__item advantages-hero__item--1">900+ студентів</div>
+									<div class="advantages-hero__item advantages-hero__item--2">15+ років досвіду</div>
+									<div class="advantages-hero__item advantages-hero__item--3">11 563 уроків</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section class="page__methodology methodology">
+					<div class="methodology__box">
+						<div class="methodology__container">
+							<div data-fls-watcher-threshold="0.5" data-fls-watcher="" class="methodology__banner banner">
+								<div class="banner__body">
+									<div class="banner__content content-banner">
+										<h2 class="content-banner__title">
+											Go2Success — англійська, яка
+											<span>рухає тебе вперед</span>
+										</h2>
+										<div class="content-banner__text">
+											<p>
+												Ми віримо, що англійська — це не лише граматика й правила. Це шлях до нових можливостей: подорожей, кар’єри, друзів і впевненості. Ми навчаємо за комунікативною методикою, де головне — говорити, а не зубрити.
+											</p>
+										</div>
+										<a href="#" data-fls-scrollto-header="" data-fls-scrollto=".tariffs" class="content-banner__button button">Почати навчання</a>
+									</div>
+									<div class="banner__picture">
+										<picture>
+											<img alt="rocket" class="banner__image" src="./assets/img/banner/image.webp">
+										</picture>
+									</div>
+								</div>
+							</div>
+							<div class="methodology__body">
+								<div data-fls-watcher-threshold="0.3" data-fls-watcher="" class="methodology__content content-methodology">
+									<div data-fls-titleblock="" class="content-methodology__title titleblock">
+										<h2 class="titleblock__title titleblock__title--yellow-white">
+											Авторська методика
+											<span>Playback</span>
+										</h2>
+									</div>
+									<div class="content-methodology__text">
+										<p>
+											<span>Playback</span>
+											— це унікальний метод навчання англійської, що поєднує театр, спілкування і справжні емоції.
+                        Учні розповідають свої історії англійською, а інші імпровізують їх у міні-сценках. Це весело, природно і максимально ефективно.
+										</p>
+										<label>
+											<span>Чому це працює?</span>
+										</label>
+										<ul>
+											<li>Емоції допомагають краще запам’ятовувати слова.</li>
+											<li>Учні обговорюють реальні історії замість штучних діалогів.</li>
+											<li>Атмосфера довіри та гумору знімає страх помилок.</li>
+											<li>Імпровізація тренує впевненість і гнучкість у мовленні.</li>
+										</ul>
+									</div>
+								</div>
+								<div data-fls-watcher-threshold="0.5" data-fls-watcher="" class="methodology__items">
+									<div class="methodology__item item-methodology item-methodology--1">
+										<div class="item-methodology__icon">
+											<picture>
+												<img alt="icon" src="./assets/img/methodology/icon_1.webp">
+											</picture>
+										</div>
+										<div class="item-methodology__body">
+											<h3 class="item-methodology__title">Розповідай історію</h3>
+											<div class="item-methodology__text">Поділися реальною ситуацією з життя англійською — без підготовки, просто як є.</div>
+										</div>
+									</div>
+									<div class="methodology__item item-methodology item-methodology--2">
+										<div class="item-methodology__icon">
+											<picture>
+												<img alt="icon" src="./assets/img/methodology/icon_2.webp">
+											</picture>
+										</div>
+										<div class="item-methodology__body">
+											<h3 class="item-methodology__title">Переживи її знову</h3>
+											<div class="item-methodology__text">
+												Інші учасники відтворюють історію у форматі короткої імпровізації, використовуючи нову лексику і граматику.
+											</div>
+										</div>
+									</div>
+									<div class="methodology__item item-methodology item-methodology--3 item-methodology--last">
+										<div class="item-methodology__icon">
+											<picture>
+												<img alt="icon" src="./assets/img/methodology/icon_3.webp">
+											</picture>
+										</div>
+										<div class="item-methodology__body">
+											<h3 class="item-methodology__title">Обговори та вдоскональ мову</h3>
+											<div class="item-methodology__text">
+												Разом аналізуєте, які слова, вирази чи інтонації були найвлучнішими і закріплюєте знання.
+											</div>
+										</div>
+									</div>
+									<img src="./assets/img/methodology/arrow_1.svg" alt="arrow" class="methodology__arrow methodology__arrow--1">
+									<img src="./assets/img/methodology/arrow_2.svg" alt="arrow" data-fls-dynamic=".item-methodology--last, 480" class="methodology__arrow methodology__arrow--2">
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section class="page__for-whom for-whom">
+					<div class="for-whom__container">
+						<div data-fls-watcher-threshold="0.3" data-fls-watcher="" class="for-whom__title titleblock">
+							<h2 class="titleblock__title">
+								<span>Для кого</span>
+								наша школа
+							</h2>
+						</div>
+						<div data-fls-watcher-threshold="0.3" data-fls-watcher="" class="for-whom__items">
+							<div class="for-whom__item item-for-whom item-for-whom--kids">
+								<div class="item-for-whom__image">
+									<picture>
+										<img alt="Image" src="./assets/img/for-whom/kids.webp">
+									</picture>
+								</div>
+								<div class="item-for-whom__body">
+									<h3 class="item-for-whom__title">Для дітей</h3>
+									<div class="item-for-whom__text">
+										Вчимо англійську через гру, уяву та цікаві завдання.
+                     Діти швидко запам’ятовують нове, вчаться будувати речення та впевнено спілкуватися англійською в дружній атмосфері.
+									</div>
+									<a href="#" data-fls-scrollto-header="" data-fls-scrollto=".about" data-for-kids="" class="item-for-whom__button button">Детальніше</a>
+								</div>
+							</div>
+							<div class="for-whom__item item-for-whom item-for-whom--teenagers">
+								<div class="item-for-whom__image">
+									<picture>
+										<img alt="Image" src="./assets/img/for-whom/teenagers.webp">
+									</picture>
+								</div>
+								<div class="item-for-whom__body">
+									<h3 class="item-for-whom__title">Для підлітків</h3>
+									<div class="item-for-whom__text">
+										Обговорюємо все, що близьке підліткам: музику, фільми, подорожі. Будуємо впевненість при розмові, розширюємо словниковий запас і готуємо до іспитів легко й цікаво.
+									</div>
+									<a href="#" data-fls-scrollto-header="" data-fls-scrollto=".about" data-for-teenagers="" class="item-for-whom__button button">Детальніше</a>
+								</div>
+							</div>
+							<div class="for-whom__item item-for-whom item-for-whom--adults">
+								<div class="item-for-whom__image">
+									<picture>
+										<img alt="Image" src="./assets/img/for-whom/adults.webp">
+									</picture>
+								</div>
+								<div class="item-for-whom__body">
+									<h3 class="item-for-whom__title">Для дорослих</h3>
+									<div class="item-for-whom__text">
+										Розмовна англійська для життя, кар’єри, подорожей і впевненого спілкування. Пояснюємо граматику просто, тренуємо говоріння і допомагаємо легко долати мовний бар’єр.
+									</div>
+									<a href="#" data-fls-scrollto-header="" data-fls-scrollto=".about" data-for-adults="" class="item-for-whom__button button">Детальніше</a>
+								</div>
+							</div>
+							<div class="for-whom__item item-for-whom item-for-whom--professions">
+								<div class="item-for-whom__image">
+									<picture>
+										<img alt="Image" src="./assets/img/for-whom/professions.webp">
+									</picture>
+								</div>
+								<div class="item-for-whom__body">
+									<h3 class="item-for-whom__title">Для професії</h3>
+									<div class="item-for-whom__text">
+										Бізнес, медицина, авіація, морська і готельна справа, навчання для корпоративних клієнтів. Підготуємо до співбесід та живого спілкування у професійному середовищі.
+									</div>
+									<a href="#" data-fls-scrollto-header="" data-fls-scrollto=".about" data-for-professions="" class="item-for-whom__button button">Детальніше</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section class="page__about about">
+					<div class="about__container-large">
+						<div class="about__body">
+							<div data-fls-tabs="" class="about__tabs tabs-about">
+								<div data-fls-tabs-titles="" data-fls-watcher-threshold="0.3" data-fls-watcher="" class="tabs-about__navigation">
+									<button type="button" class="tabs-about__title tabs-about__title--1">Для дітей</button>
+									<button type="button" class="tabs-about__title tabs-about__title--2">Для підлітків</button>
+									<button type="button" class="tabs-about__title tabs-about__title--3">Для дорослих</button>
+									<button type="button" class="tabs-about__title tabs-about__title--4">Для професії</button>
+									<button type="button" class="tabs-about__title tabs-about__title--5 --tab-active">Speaking Club</button>
+								</div>
+								<div data-fls-tabs-body="" class="tabs-about__content">
+									<div class="tabs-about__body body-tabs-about">
+										<div data-fls-slider="" class="tabs-about__slider swiper">
+											<div class="tabs-about__wrapper swiper-wrapper body-tabs-about__items">
+												<div class="tabs-about__slide swiper-slide body-tabs-about__item item-body-tabs-about">
+													<div class="item-body-tabs-about__image">
+														<picture>
+															<img alt="Image" src="./assets/img/about/kids/girl.webp">
+														</picture>
+													</div>
+													<div class="item-body-tabs-about__content">
+														<h3 class="item-body-tabs-about__title">Індивідуальне</h3>
+														<div class="item-body-tabs-about__properties">
+															<div class="item-body-tabs-about__property property-item-tabs-about">
+																<div class="property-item-tabs-about__icon">🕒</div>
+																<div class="property-item-tabs-about__text">Тривалість заняття: 45 хв або 60 хв</div>
+															</div>
+															<div class="item-body-tabs-about__property property-item-tabs-about">
+																<div class="property-item-tabs-about__icon">📅</div>
+																<div class="property-item-tabs-about__text">Формат: 1–2 рази на тиждень</div>
+															</div>
+															<div class="item-body-tabs-about__property property-item-tabs-about">
+																<div class="property-item-tabs-about__icon">💻</div>
+																<div class="property-item-tabs-about__text">Онлайн у Edvibe, Zoom, Miro</div>
+															</div>
+															<div class="item-body-tabs-about__property property-item-tabs-about">
+																<div class="property-item-tabs-about__icon">💬</div>
+																<div class="property-item-tabs-about__text">Тематика занять: актуальні розмовні теми</div>
+															</div>
+														</div>
+														<div class="item-body-tabs-about__price price-item-tabs-about">
+															<div class="price-item-tabs-about__label">Вартість заняття:</div>
+															<div class="price-item-tabs-about__value">350 / 450 грн</div>
+														</div>
+														<div class="item-body-tabs-about__actions">
+															<a href="#" data-fls-popup-link="popup-prices" class="item-body-tabs-about__button button">Почати навчання</a>
+															<a href="#" data-fls-scrollto-header="" data-fls-scrollto=".trial-lesson" class="item-body-tabs-about__button button button--light">Пробний урок</a>
+														</div>
+													</div>
+												</div>
+												<div class="tabs-about__slide swiper-slide body-tabs-about__item item-body-tabs-about">
+													<div class="item-body-tabs-about__image">
+														<picture>
+															<img alt="Image" src="./assets/img/about/kids/girl.webp">
+														</picture>
+													</div>
+													<div class="item-body-tabs-about__content">
+														<h3 class="item-body-tabs-about__title">В парі</h3>
+														<div class="item-body-tabs-about__properties">
+															<div class="item-body-tabs-about__property property-item-tabs-about">
+																<div class="property-item-tabs-about__icon">🕒</div>
+																<div class="property-item-tabs-about__text">Тривалість заняття: 60 хв</div>
+															</div>
+															<div class="item-body-tabs-about__property property-item-tabs-about">
+																<div class="property-item-tabs-about__icon">📅</div>
+																<div class="property-item-tabs-about__text">Формат: 1–2 рази на тиждень</div>
+															</div>
+															<div class="item-body-tabs-about__property property-item-tabs-about">
+																<div class="property-item-tabs-about__icon">💻</div>
+																<div class="property-item-tabs-about__text">Онлайн у Edvibe, Zoom, Miro</div>
+															</div>
+															<div class="item-body-tabs-about__property property-item-tabs-about">
+																<div class="property-item-tabs-about__icon">💬</div>
+																<div class="property-item-tabs-about__text">Тематика занять: актуальні розмовні теми</div>
+															</div>
+														</div>
+														<div class="item-body-tabs-about__price price-item-tabs-about">
+															<div class="price-item-tabs-about__label">Вартість заняття:</div>
+															<div class="price-item-tabs-about__value">350 грн</div>
+														</div>
+														<div class="item-body-tabs-about__actions">
+															<a href="#" data-fls-popup-link="popup-prices" class="item-body-tabs-about__button button">Почати навчання</a>
+															<a href="#" data-fls-scrollto-header="" data-fls-scrollto=".trial-lesson" class="item-body-tabs-about__button button button--light">Пробний урок</a>
+														</div>
+													</div>
+												</div>
+												<div class="tabs-about__slide swiper-slide body-tabs-about__item item-body-tabs-about">
+													<div class="item-body-tabs-about__image">
+														<picture>
+															<img alt="Image" src="./assets/img/about/kids/girl.webp">
+														</picture>
+													</div>
+													<div class="item-body-tabs-about__content">
+														<h3 class="item-body-tabs-about__title">В групі (4 учні)</h3>
+														<div class="item-body-tabs-about__properties">
+															<div class="item-body-tabs-about__property property-item-tabs-about">
+																<div class="property-item-tabs-about__icon">🕒</div>
+																<div class="property-item-tabs-about__text">Тривалість заняття: 60 хв</div>
+															</div>
+															<div class="item-body-tabs-about__property property-item-tabs-about">
+																<div class="property-item-tabs-about__icon">📅</div>
+																<div class="property-item-tabs-about__text">Формат: 1–2 рази на тиждень</div>
+															</div>
+															<div class="item-body-tabs-about__property property-item-tabs-about">
+																<div class="property-item-tabs-about__icon">💻</div>
+																<div class="property-item-tabs-about__text">Онлайн у Edvibe, Zoom, Miro</div>
+															</div>
+															<div class="item-body-tabs-about__property property-item-tabs-about">
+																<div class="property-item-tabs-about__icon">💬</div>
+																<div class="property-item-tabs-about__text">Тематика занять: актуальні розмовні теми</div>
+															</div>
+														</div>
+														<div class="item-body-tabs-about__price price-item-tabs-about">
+															<div class="price-item-tabs-about__label">Вартість заняття:</div>
+															<div class="price-item-tabs-about__value">250 грн</div>
+														</div>
+														<div class="item-body-tabs-about__actions">
+															<a href="#" data-fls-popup-link="popup-prices" class="item-body-tabs-about__button button">Почати навчання</a>
+															<a href="#" data-fls-scrollto-header="" data-fls-scrollto=".trial-lesson" class="item-body-tabs-about__button button button--light">Пробний урок</a>
+														</div>
+													</div>
+												</div>
+												<div class="tabs-about__slide swiper-slide body-tabs-about__item item-body-tabs-about">
+													<div class="item-body-tabs-about__image">
+														<picture>
+															<img alt="Image" src="./assets/img/about/kids/girl.webp">
+														</picture>
+													</div>
+													<div class="item-body-tabs-about__content">
+														<h3 class="item-body-tabs-about__title">Преміум індивідуальне з засновницею школи</h3>
+														<div class="item-body-tabs-about__properties">
+															<div class="item-body-tabs-about__property property-item-tabs-about">
+																<div class="property-item-tabs-about__icon">🕒</div>
+																<div class="property-item-tabs-about__text">Тривалість заняття: 60 хв</div>
+															</div>
+															<div class="item-body-tabs-about__property property-item-tabs-about">
+																<div class="property-item-tabs-about__icon">📅</div>
+																<div class="property-item-tabs-about__text">Формат: 1–2 рази на тиждень</div>
+															</div>
+															<div class="item-body-tabs-about__property property-item-tabs-about">
+																<div class="property-item-tabs-about__icon">💻</div>
+																<div class="property-item-tabs-about__text">Онлайн у Edvibe, Zoom, Miro</div>
+															</div>
+															<div class="item-body-tabs-about__property property-item-tabs-about">
+																<div class="property-item-tabs-about__icon">💬</div>
+																<div class="property-item-tabs-about__text">Тематика занять: актуальні розмовні теми</div>
+															</div>
+														</div>
+														<div class="item-body-tabs-about__price price-item-tabs-about">
+															<div class="price-item-tabs-about__label">Вартість заняття:</div>
+															<div class="price-item-tabs-about__value">500 грн</div>
+														</div>
+														<div class="item-body-tabs-about__actions">
+															<a href="#" data-fls-popup-link="popup-prices" class="item-body-tabs-about__button button">Почати навчання</a>
+															<a href="#" data-fls-scrollto-header="" data-fls-scrollto=".trial-lesson" class="item-body-tabs-about__button button button--light">Пробний урок</a>
+														</div>
+													</div>
+													<div class="item-body-tabs-about__image-crown">
+														<picture>
+															<img alt="crown" src="./assets/img/about/kids/crown.webp">
+														</picture>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="tabs-about__body body-tabs-about">
+										<div data-fls-slider="" class="tabs-about__slider swiper">
+											<div class="tabs-about__wrapper swiper-wrapper body-tabs-about__items">
+												<div class="tabs-about__slide swiper-slide body-tabs-about__item item-body-tabs-about">
+													<div class="item-body-tabs-about__image">
+														<picture>
+															<img alt="Image" src="./assets/img/about/kids/teenager.webp">
+														</picture>
+													</div>
+													<div class="item-body-tabs-about__content">
+														<h3 class="item-body-tabs-about__title">Індивідуальне</h3>
+														<div class="item-body-tabs-about__properties">
+															<div class="item-body-tabs-about__property property-item-tabs-about">
+																<div class="property-item-tabs-about__icon">🕒</div>
+																<div class="property-item-tabs-about__text">Тривалість заняття: 60 хв</div>
+															</div>
+															<div class="item-body-tabs-about__property property-item-tabs-about">
+																<div class="property-item-tabs-about__icon">📅</div>
+																<div class="property-item-tabs-about__text">Формат: 1–2 рази на тиждень</div>
+															</div>
+															<div class="item-body-tabs-about__property property-item-tabs-about">
+																<div class="property-item-tabs-about__icon">💻</div>
+																<div class="property-item-tabs-about__text">Онлайн у Edvibe, Zoom, Miro</div>
+															</div>
+															<div class="item-body-tabs-about__property property-item-tabs-about">
+																<div class="property-item-tabs-about__icon">💬</div>
+																<div class="property-item-tabs-about__text">Тематика занять: актуальні розмовні теми</div>
+															</div>
+														</div>
+														<div class="item-body-tabs-about__price price-item-tabs-about">
+															<div class="price-item-tabs-about__label">Вартість заняття:</div>
+															<div class="price-item-tabs-about__value">500 грн</div>
+														</div>
+														<div class="item-body-tabs-about__actions">
+															<a href="#" data-fls-popup-link="popup-prices" class="item-body-tabs-about__button button">Почати навчання</a>
+															<a href="#" data-fls-scrollto-header="" data-fls-scrollto=".trial-lesson" class="item-body-tabs-about__button button button--light">Пробний урок</a>
+														</div>
+													</div>
+												</div>
+												<div class="tabs-about__slide swiper-slide body-tabs-about__item item-body-tabs-about">
+													<div class="item-body-tabs-about__image">
+														<picture>
+															<img alt="Image" src="./assets/img/about/kids/teenager.webp">
+														</picture>
+													</div>
+													<div class="item-body-tabs-about__content">
+														<h3 class="item-body-tabs-about__title">В парі</h3>
+														<div class="item-body-tabs-about__properties">
+															<div class="item-body-tabs-about__property property-item-tabs-about">
+																<div class="property-item-tabs-about__icon">🕒</div>
+																<div class="property-item-tabs-about__text">Тривалість заняття: 60 хв</div>
+															</div>
+															<div class="item-body-tabs-about__property property-item-tabs-about">
+																<div class="property-item-tabs-about__icon">📅</div>
+																<div class="property-item-tabs-about__text">Формат: 1–2 рази на тиждень</div>
+															</div>
+															<div class="item-body-tabs-about__property property-item-tabs-about">
+																<div class="property-item-tabs-about__icon">💻</div>
+																<div class="property-item-tabs-about__text">Онлайн у Edvibe, Zoom, Miro</div>
+															</div>
+															<div class="item-body-tabs-about__property property-item-tabs-about">
+																<div class="property-item-tabs-about__icon">💬</div>
+																<div class="property-item-tabs-about__text">Тематика занять: актуальні розмовні теми</div>
+															</div>
+														</div>
+														<div class="item-body-tabs-about__price price-item-tabs-about">
+															<div class="price-item-tabs-about__label">Вартість заняття:</div>
+															<div class="price-item-tabs-about__value">400 грн</div>
+														</div>
+														<div class="item-body-tabs-about__actions">
+															<a href="#" data-fls-popup-link="popup-prices" class="item-body-tabs-about__button button">Почати навчання</a>
+															<a href="#" data-fls-scrollto-header="" data-fls-scrollto=".trial-lesson" class="item-body-tabs-about__button button button--light">Пробний урок</a>
+														</div>
+													</div>
+												</div>
+												<div class="tabs-about__slide swiper-slide body-tabs-about__item item-body-tabs-about">
+													<div class="item-body-tabs-about__image">
+														<picture>
+															<img alt="Image" src="./assets/img/about/kids/teenager.webp">
+														</picture>
+													</div>
+													<div class="item-body-tabs-about__content">
+														<h3 class="item-body-tabs-about__title">В групі (4 учні)</h3>
+														<div class="item-body-tabs-about__properties">
+															<div class="item-body-tabs-about__property property-item-tabs-about">
+																<div class="property-item-tabs-about__icon">🕒</div>
+																<div class="property-item-tabs-about__text">Тривалість заняття: 60 хв</div>
+															</div>
+															<div class="item-body-tabs-about__property property-item-tabs-about">
+																<div class="property-item-tabs-about__icon">📅</div>
+																<div class="property-item-tabs-about__text">Формат: 1–2 рази на тиждень</div>
+															</div>
+															<div class="item-body-tabs-about__property property-item-tabs-about">
+																<div class="property-item-tabs-about__icon">💻</div>
+																<div class="property-item-tabs-about__text">Онлайн у Edvibe, Zoom, Miro</div>
+															</div>
+															<div class="item-body-tabs-about__property property-item-tabs-about">
+																<div class="property-item-tabs-about__icon">💬</div>
+																<div class="property-item-tabs-about__text">Тематика занять: актуальні розмовні теми</div>
+															</div>
+														</div>
+														<div class="item-body-tabs-about__price price-item-tabs-about">
+															<div class="price-item-tabs-about__label">Вартість заняття:</div>
+															<div class="price-item-tabs-about__value">350 грн</div>
+														</div>
+														<div class="item-body-tabs-about__actions">
+															<a href="#" data-fls-popup-link="popup-prices" class="item-body-tabs-about__button button">Почати навчання</a>
+															<a href="#" data-fls-scrollto-header="" data-fls-scrollto=".trial-lesson" class="item-body-tabs-about__button button button--light">Пробний урок</a>
+														</div>
+													</div>
+												</div>
+												<div class="tabs-about__slide swiper-slide body-tabs-about__item item-body-tabs-about">
+													<div class="item-body-tabs-about__image">
+														<picture>
+															<img alt="Image" src="./assets/img/about/kids/teenager.webp">
+														</picture>
+													</div>
+													<div class="item-body-tabs-about__content">
+														<h3 class="item-body-tabs-about__title">Преміум індивідуальне з засновницею школи</h3>
+														<div class="item-body-tabs-about__properties">
+															<div class="item-body-tabs-about__property property-item-tabs-about">
+																<div class="property-item-tabs-about__icon">🕒</div>
+																<div class="property-item-tabs-about__text">Тривалість заняття: 60 хв</div>
+															</div>
+															<div class="item-body-tabs-about__property property-item-tabs-about">
+																<div class="property-item-tabs-about__icon">📅</div>
+																<div class="property-item-tabs-about__text">Формат: 1–2 рази на тиждень</div>
+															</div>
+															<div class="item-body-tabs-about__property property-item-tabs-about">
+																<div class="property-item-tabs-about__icon">💻</div>
+																<div class="property-item-tabs-about__text">Онлайн у Edvibe, Zoom, Miro</div>
+															</div>
+															<div class="item-body-tabs-about__property property-item-tabs-about">
+																<div class="property-item-tabs-about__icon">💬</div>
+																<div class="property-item-tabs-about__text">Тематика занять: актуальні розмовні теми</div>
+															</div>
+														</div>
+														<div class="item-body-tabs-about__price price-item-tabs-about">
+															<div class="price-item-tabs-about__label">Вартість заняття:</div>
+															<div class="price-item-tabs-about__value">600 грн</div>
+														</div>
+														<div class="item-body-tabs-about__actions">
+															<a href="#" data-fls-popup-link="popup-prices" class="item-body-tabs-about__button button">Почати навчання</a>
+															<a href="#" data-fls-scrollto-header="" data-fls-scrollto=".trial-lesson" class="item-body-tabs-about__button button button--light">Пробний урок</a>
+														</div>
+													</div>
+													<div class="item-body-tabs-about__image-crown">
+														<picture>
+															<img alt="crown" src="./assets/img/about/kids/crown.webp">
+														</picture>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="tabs-about__body body-tabs-about">
+										<div data-fls-slider="" class="tabs-about__slider swiper">
+											<div class="tabs-about__wrapper swiper-wrapper body-tabs-about__items">
+												<div class="tabs-about__slide swiper-slide body-tabs-about__item item-body-tabs-about">
+													<div class="item-body-tabs-about__image">
+														<picture>
+															<img alt="Image" src="./assets/img/about/kids/men.webp">
+														</picture>
+													</div>
+													<div class="item-body-tabs-about__content">
+														<h3 class="item-body-tabs-about__title">Індивідуальне</h3>
+														<div class="item-body-tabs-about__properties">
+															<div class="item-body-tabs-about__property property-item-tabs-about">
+																<div class="property-item-tabs-about__icon">🕒</div>
+																<div class="property-item-tabs-about__text">Тривалість заняття: 60 хв</div>
+															</div>
+															<div class="item-body-tabs-about__property property-item-tabs-about">
+																<div class="property-item-tabs-about__icon">📅</div>
+																<div class="property-item-tabs-about__text">Формат: 1–2 рази на тиждень</div>
+															</div>
+															<div class="item-body-tabs-about__property property-item-tabs-about">
+																<div class="property-item-tabs-about__icon">💻</div>
+																<div class="property-item-tabs-about__text">Онлайн у Edvibe, Zoom, Miro</div>
+															</div>
+															<div class="item-body-tabs-about__property property-item-tabs-about">
+																<div class="property-item-tabs-about__icon">💬</div>
+																<div class="property-item-tabs-about__text">Тематика занять: актуальні розмовні теми</div>
+															</div>
+														</div>
+														<div class="item-body-tabs-about__price price-item-tabs-about">
+															<div class="price-item-tabs-about__label">Вартість заняття:</div>
+															<div class="price-item-tabs-about__value">550 грн</div>
+														</div>
+														<div class="item-body-tabs-about__actions">
+															<a href="#" data-fls-popup-link="popup-prices" class="item-body-tabs-about__button button">Почати навчання</a>
+															<a href="#" data-fls-scrollto-header="" data-fls-scrollto=".trial-lesson" class="item-body-tabs-about__button button button--light">Пробний урок</a>
+														</div>
+													</div>
+												</div>
+												<div class="tabs-about__slide swiper-slide body-tabs-about__item item-body-tabs-about">
+													<div class="item-body-tabs-about__image">
+														<picture>
+															<img alt="Image" src="./assets/img/about/kids/men.webp">
+														</picture>
+													</div>
+													<div class="item-body-tabs-about__content">
+														<h3 class="item-body-tabs-about__title">В парі</h3>
+														<div class="item-body-tabs-about__properties">
+															<div class="item-body-tabs-about__property property-item-tabs-about">
+																<div class="property-item-tabs-about__icon">🕒</div>
+																<div class="property-item-tabs-about__text">Тривалість заняття: 60 хв</div>
+															</div>
+															<div class="item-body-tabs-about__property property-item-tabs-about">
+																<div class="property-item-tabs-about__icon">📅</div>
+																<div class="property-item-tabs-about__text">Формат: 1–2 рази на тиждень</div>
+															</div>
+															<div class="item-body-tabs-about__property property-item-tabs-about">
+																<div class="property-item-tabs-about__icon">💻</div>
+																<div class="property-item-tabs-about__text">Онлайн у Edvibe, Zoom, Miro</div>
+															</div>
+															<div class="item-body-tabs-about__property property-item-tabs-about">
+																<div class="property-item-tabs-about__icon">💬</div>
+																<div class="property-item-tabs-about__text">Тематика занять: актуальні розмовні теми</div>
+															</div>
+														</div>
+														<div class="item-body-tabs-about__price price-item-tabs-about">
+															<div class="price-item-tabs-about__label">Вартість заняття:</div>
+															<div class="price-item-tabs-about__value">450 грн</div>
+														</div>
+														<div class="item-body-tabs-about__actions">
+															<a href="#" data-fls-popup-link="popup-prices" class="item-body-tabs-about__button button">Почати навчання</a>
+															<a href="#" data-fls-scrollto-header="" data-fls-scrollto=".trial-lesson" class="item-body-tabs-about__button button button--light">Пробний урок</a>
+														</div>
+													</div>
+												</div>
+												<div class="tabs-about__slide swiper-slide body-tabs-about__item item-body-tabs-about">
+													<div class="item-body-tabs-about__image">
+														<picture>
+															<img alt="Image" src="./assets/img/about/kids/men.webp">
+														</picture>
+													</div>
+													<div class="item-body-tabs-about__content">
+														<h3 class="item-body-tabs-about__title">В групі (4 учні)</h3>
+														<div class="item-body-tabs-about__properties">
+															<div class="item-body-tabs-about__property property-item-tabs-about">
+																<div class="property-item-tabs-about__icon">🕒</div>
+																<div class="property-item-tabs-about__text">Тривалість заняття: 60 хв</div>
+															</div>
+															<div class="item-body-tabs-about__property property-item-tabs-about">
+																<div class="property-item-tabs-about__icon">📅</div>
+																<div class="property-item-tabs-about__text">Формат: 1–2 рази на тиждень</div>
+															</div>
+															<div class="item-body-tabs-about__property property-item-tabs-about">
+																<div class="property-item-tabs-about__icon">💻</div>
+																<div class="property-item-tabs-about__text">Онлайн у Edvibe, Zoom, Miro</div>
+															</div>
+															<div class="item-body-tabs-about__property property-item-tabs-about">
+																<div class="property-item-tabs-about__icon">💬</div>
+																<div class="property-item-tabs-about__text">Тематика занять: актуальні розмовні теми</div>
+															</div>
+														</div>
+														<div class="item-body-tabs-about__price price-item-tabs-about">
+															<div class="price-item-tabs-about__label">Вартість заняття:</div>
+															<div class="price-item-tabs-about__value">350 грн</div>
+														</div>
+														<div class="item-body-tabs-about__actions">
+															<a href="#" data-fls-popup-link="popup-prices" class="item-body-tabs-about__button button">Почати навчання</a>
+															<a href="#" data-fls-scrollto-header="" data-fls-scrollto=".trial-lesson" class="item-body-tabs-about__button button button--light">Пробний урок</a>
+														</div>
+													</div>
+												</div>
+												<div class="tabs-about__slide swiper-slide body-tabs-about__item item-body-tabs-about">
+													<div class="item-body-tabs-about__image">
+														<picture>
+															<img alt="Image" src="./assets/img/about/kids/men.webp">
+														</picture>
+													</div>
+													<div class="item-body-tabs-about__content">
+														<h3 class="item-body-tabs-about__title">Преміум індивідуальне з засновницею школи</h3>
+														<div class="item-body-tabs-about__properties">
+															<div class="item-body-tabs-about__property property-item-tabs-about">
+																<div class="property-item-tabs-about__icon">🕒</div>
+																<div class="property-item-tabs-about__text">Тривалість заняття: 60 хв</div>
+															</div>
+															<div class="item-body-tabs-about__property property-item-tabs-about">
+																<div class="property-item-tabs-about__icon">📅</div>
+																<div class="property-item-tabs-about__text">Формат: 1–2 рази на тиждень</div>
+															</div>
+															<div class="item-body-tabs-about__property property-item-tabs-about">
+																<div class="property-item-tabs-about__icon">💻</div>
+																<div class="property-item-tabs-about__text">Онлайн у Edvibe, Zoom, Miro</div>
+															</div>
+															<div class="item-body-tabs-about__property property-item-tabs-about">
+																<div class="property-item-tabs-about__icon">💬</div>
+																<div class="property-item-tabs-about__text">Тематика занять: актуальні розмовні теми</div>
+															</div>
+														</div>
+														<div class="item-body-tabs-about__price price-item-tabs-about">
+															<div class="price-item-tabs-about__label">Вартість заняття:</div>
+															<div class="price-item-tabs-about__value">650 грн</div>
+														</div>
+														<div class="item-body-tabs-about__actions">
+															<a href="#" data-fls-popup-link="popup-prices" class="item-body-tabs-about__button button">Почати навчання</a>
+															<a href="#" data-fls-scrollto-header="" data-fls-scrollto=".trial-lesson" class="item-body-tabs-about__button button button--light">Пробний урок</a>
+														</div>
+													</div>
+													<div class="item-body-tabs-about__image-crown">
+														<picture>
+															<img alt="crown" src="./assets/img/about/kids/crown.webp">
+														</picture>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="tabs-about__body body-tabs-about body-tabs-about--container">
+										<div data-fls-slider="" class="tabs-about__slider swiper">
+											<div class="tabs-about__wrapper swiper-wrapper body-tabs-about__items">
+												<div class="tabs-about__slide swiper-slide body-tabs-about__item item-body-tabs-about">
+													<div class="item-body-tabs-about__image">
+														<picture>
+															<img alt="Image" src="./assets/img/about/kids/women.webp">
+														</picture>
+													</div>
+													<div class="item-body-tabs-about__content">
+														<h3 class="item-body-tabs-about__title">Індивідуальне</h3>
+														<div class="item-body-tabs-about__properties">
+															<div class="item-body-tabs-about__property property-item-tabs-about">
+																<div class="property-item-tabs-about__icon">🕒</div>
+																<div class="property-item-tabs-about__text">Тривалість заняття: 60 хв</div>
+															</div>
+															<div class="item-body-tabs-about__property property-item-tabs-about">
+																<div class="property-item-tabs-about__icon">📅</div>
+																<div class="property-item-tabs-about__text">Формат: 1–2 рази на тиждень</div>
+															</div>
+															<div class="item-body-tabs-about__property property-item-tabs-about">
+																<div class="property-item-tabs-about__icon">💻</div>
+																<div class="property-item-tabs-about__text">Онлайн у Edvibe, Zoom, Miro</div>
+															</div>
+															<div class="item-body-tabs-about__property property-item-tabs-about">
+																<div class="property-item-tabs-about__icon">💬</div>
+																<div class="property-item-tabs-about__text">Тематика занять: актуальні розмовні теми</div>
+															</div>
+														</div>
+														<div class="item-body-tabs-about__price price-item-tabs-about">
+															<div class="price-item-tabs-about__label">Вартість заняття:</div>
+															<div class="price-item-tabs-about__value">650 грн</div>
+														</div>
+														<div class="item-body-tabs-about__actions">
+															<a href="#" data-fls-popup-link="popup-prices" class="item-body-tabs-about__button button">Почати навчання</a>
+															<a href="#" data-fls-scrollto-header="" data-fls-scrollto=".trial-lesson" class="item-body-tabs-about__button button button--light">Пробний урок</a>
+														</div>
+													</div>
+												</div>
+												<div class="tabs-about__slide swiper-slide body-tabs-about__item item-body-tabs-about">
+													<div class="item-body-tabs-about__image">
+														<picture>
+															<img alt="Image" src="./assets/img/about/kids/women.webp">
+														</picture>
+													</div>
+													<div class="item-body-tabs-about__content">
+														<h3 class="item-body-tabs-about__title">Преміум індивідуальне з засновницею школи</h3>
+														<div class="item-body-tabs-about__properties">
+															<div class="item-body-tabs-about__property property-item-tabs-about">
+																<div class="property-item-tabs-about__icon">🕒</div>
+																<div class="property-item-tabs-about__text">Тривалість заняття: 60 хв</div>
+															</div>
+															<div class="item-body-tabs-about__property property-item-tabs-about">
+																<div class="property-item-tabs-about__icon">📅</div>
+																<div class="property-item-tabs-about__text">Формат: 1–2 рази на тиждень</div>
+															</div>
+															<div class="item-body-tabs-about__property property-item-tabs-about">
+																<div class="property-item-tabs-about__icon">💻</div>
+																<div class="property-item-tabs-about__text">Онлайн у Edvibe, Zoom, Miro</div>
+															</div>
+															<div class="item-body-tabs-about__property property-item-tabs-about">
+																<div class="property-item-tabs-about__icon">💬</div>
+																<div class="property-item-tabs-about__text">Тематика занять: актуальні розмовні теми</div>
+															</div>
+														</div>
+														<div class="item-body-tabs-about__price price-item-tabs-about">
+															<div class="price-item-tabs-about__label">Вартість заняття:</div>
+															<div class="price-item-tabs-about__value">750 грн</div>
+														</div>
+														<div class="item-body-tabs-about__actions">
+															<a href="#" data-fls-popup-link="popup-prices" class="item-body-tabs-about__button button">Почати навчання</a>
+															<a href="#" data-fls-scrollto-header="" data-fls-scrollto=".trial-lesson" class="item-body-tabs-about__button button button--light">Пробний урок</a>
+														</div>
+													</div>
+													<div class="item-body-tabs-about__image-crown">
+														<picture>
+															<img alt="crown" src="./assets/img/about/kids/crown.webp">
+														</picture>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="tabs-about__body body-tabs-about body-tabs-about--container">
+										<div class="body-tabs-about__content content-body-tabs-about">
+											<div data-fls-watcher-threshold="0.3" data-fls-watcher="" class="content-body-tabs-about__box">
+												<div class="content-body-tabs-about__title titleblock">
+													<h2 class="titleblock__title">
+														<span>Speaking Club</span>
+														— твоя щотижнева практика впевненості
+													</h2>
+												</div>
+												<div class="content-body-tabs-about__text">
+													<p>
+														Тренуй англійську у дружній спільноті, де всі говорять, слухають і підтримують. Розмовна практика у форматі “живого діалогу” допомагає засвоювати до
+														<span>х3</span>
+														більше нових слів, ніж звичайне навчання. Жодних підручників — лише справжнє спілкування.
+													</p>
+												</div>
+												<div class="content-body-tabs-about__labels">
+													<div class="content-body-tabs-about__label">🖥 ком’юніті однодумців</div>
+													<div class="content-body-tabs-about__label">х3 більше нових слів</div>
+													<div class="content-body-tabs-about__label">🗣️ ще більше практики</div>
+												</div>
+											</div>
+											<div data-fls-watcher-threshold="0.6" data-fls-watcher="" class="content-body-tabs-about__image">
+												<picture>
+													<img alt="Image" src="./assets/img/about/image.webp">
+												</picture>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section class="page__tariffs tariffs">
+					<div class="tariffs__container">
+						<div data-fls-slider="" class="tariffs__slider tabs-about__cards-slider swiper">
+							<div data-fls-watcher-threshold="0.3" data-fls-watcher="" class="tariffs__wrapper tabs-about__cards-wrapper swiper-wrapper tariffs__cards">
+								<div class="tariffs__slide slide-tariffs slide-tariffs--1 swiper-slide">
+									<div class="slide-tariffs__image">
+										<picture>
+											<img alt="Image" src="./assets/img/about/for-kids.webp">
+										</picture>
+									</div>
+									<div class="slide-tariffs__body">
+										<h3 class="slide-tariffs__title">Для дітей (7-12 років)</h3>
+										<div class="slide-tariffs__text">
+											<p>
+												Граємо, спілкуємось і вчимо англійську природно — через ігри, рух і цікаві теми.
+											</p>
+											<p>Маленькі групи по 4 учасники допомагають кожній дитині бути почутою.</p>
+										</div>
+										<div class="slide-tariffs__info info-slide-tariffs">
+											<div class="info-slide-tariffs__item">
+												<div class="info-slide-tariffs__item-icon">🕒</div>
+												<div class="info-slide-tariffs__item-text">Тривалість заняття: 60 хв</div>
+											</div>
+											<div class="info-slide-tariffs__item">
+												<div class="info-slide-tariffs__item-icon">📅</div>
+												<div class="info-slide-tariffs__item-text">Формат: 1–2 рази на тиждень</div>
+											</div>
+											<div class="info-slide-tariffs__item">
+												<div class="info-slide-tariffs__item-icon">💻</div>
+												<div class="info-slide-tariffs__item-text">Онлайн у Edvibe, Zoom, Miro</div>
+											</div>
+											<div class="info-slide-tariffs__item">
+												<div class="info-slide-tariffs__item-icon">💬</div>
+												<div class="info-slide-tariffs__item-text">Тематика занять: актуальні розмовні теми</div>
+											</div>
+										</div>
+										<div class="slide-tariffs__price price-slide-tariffs">
+											<div class="price-slide-tariffs__label">Вартість одного заняття:</div>
+											<div class="price-slide-tariffs__value">250 грн</div>
+										</div>
+										<a href="#" class="slide-tariffs__button button">Приєднатись до клубу</a>
+									</div>
+								</div>
+								<div class="tariffs__slide slide-tariffs slide-tariffs--2 swiper-slide">
+									<div class="slide-tariffs__image">
+										<picture>
+											<img alt="Image" src="./assets/img/about/for-teenagers.webp">
+										</picture>
+									</div>
+									<div class="slide-tariffs__body">
+										<h3 class="slide-tariffs__title">Для підлітків (13-19 років)</h3>
+										<div class="slide-tariffs__text">
+											<p>
+												Говоримо про те, що справді цікаво: фільми, подорожі, соцмережі, життя за кордоном.
+											</p>
+											<p>У групі лише 4 учасники — більше уваги кожному і легше подолати страх говорити.</p>
+										</div>
+										<div class="slide-tariffs__info info-slide-tariffs">
+											<div class="info-slide-tariffs__item">
+												<div class="info-slide-tariffs__item-icon">🕒</div>
+												<div class="info-slide-tariffs__item-text">Тривалість заняття: 60 хв</div>
+											</div>
+											<div class="info-slide-tariffs__item">
+												<div class="info-slide-tariffs__item-icon">📅</div>
+												<div class="info-slide-tariffs__item-text">Формат: 1–2 рази на тиждень</div>
+											</div>
+											<div class="info-slide-tariffs__item">
+												<div class="info-slide-tariffs__item-icon">💻</div>
+												<div class="info-slide-tariffs__item-text">Онлайн у Edvibe, Zoom, Miro</div>
+											</div>
+											<div class="info-slide-tariffs__item">
+												<div class="info-slide-tariffs__item-icon">👩‍🏫</div>
+												<div class="info-slide-tariffs__item-text">Рівні: від Beginner до Advanced (A1-C1)</div>
+											</div>
+											<div class="info-slide-tariffs__item">
+												<div class="info-slide-tariffs__item-icon">💬</div>
+												<div class="info-slide-tariffs__item-text">Тематика занять: актуальні розмовні теми</div>
+											</div>
+										</div>
+										<div class="slide-tariffs__price price-slide-tariffs">
+											<div class="price-slide-tariffs__label">Вартість одного заняття:</div>
+											<div class="price-slide-tariffs__value">350 грн</div>
+										</div>
+										<a href="#" class="slide-tariffs__button button">Приєднатись до клубу</a>
+									</div>
+								</div>
+								<div class="tariffs__slide slide-tariffs slide-tariffs--3 swiper-slide">
+									<div class="slide-tariffs__image">
+										<picture>
+											<img alt="Image" src="./assets/img/about/for-adult.webp">
+										</picture>
+									</div>
+									<div class="slide-tariffs__body">
+										<h3 class="slide-tariffs__title">Для дорослих (19+ років)</h3>
+										<div class="slide-tariffs__text">
+											<p>Практикуємо живу англійську для роботи, подорожей і впевненого спілкування.</p>
+											<p>У камерній групі з 4 людей ви швидко відчуєте прогрес і легкість у мовленні.</p>
+										</div>
+										<div class="slide-tariffs__info info-slide-tariffs">
+											<div class="info-slide-tariffs__item">
+												<div class="info-slide-tariffs__item-icon">🕒</div>
+												<div class="info-slide-tariffs__item-text">Тривалість заняття: 60 хв</div>
+											</div>
+											<div class="info-slide-tariffs__item">
+												<div class="info-slide-tariffs__item-icon">📅</div>
+												<div class="info-slide-tariffs__item-text">Формат: 1–2 рази на тиждень</div>
+											</div>
+											<div class="info-slide-tariffs__item">
+												<div class="info-slide-tariffs__item-icon">💻</div>
+												<div class="info-slide-tariffs__item-text">Онлайн у Edvibe, Zoom, Miro</div>
+											</div>
+											<div class="info-slide-tariffs__item">
+												<div class="info-slide-tariffs__item-icon">👩‍🏫</div>
+												<div class="info-slide-tariffs__item-text">Рівні: від Beginner до Advanced (A1-C1)</div>
+											</div>
+											<div class="info-slide-tariffs__item">
+												<div class="info-slide-tariffs__item-icon">💬</div>
+												<div class="info-slide-tariffs__item-text">Тематика занять: актуальні розмовні теми</div>
+											</div>
+										</div>
+										<div class="slide-tariffs__price price-slide-tariffs">
+											<div class="price-slide-tariffs__label">Вартість одного заняття:</div>
+											<div class="price-slide-tariffs__value">350 грн</div>
+										</div>
+										<a href="#" class="slide-tariffs__button button">Приєднатись до клубу</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section class="page__trial-lesson trial-lesson">
+					<div class="trial-lesson__container">
+						<div class="trial-lesson__inner">
+							<div data-fls-watcher-threshold="0.3" data-fls-watcher="" class="trial-lesson__body">
+								<div class="trial-lesson__content content-trial-lesson">
+									<div class="content-trial-lesson__title titleblock">
+										<h2 class="titleblock__title titleblock__title--yellow-white">
+											<span>Пробний урок</span>
+											всього за 200 грн
+										</h2>
+									</div>
+									<div class="content-trial-lesson__text">
+										<p>*кошти повертаються тобі на баланс при оплаті тарифа від 8 занять</p>
+									</div>
+									<div class="content-trial-lesson__labels">
+										<div class="content-trial-lesson__label content-trial-lesson__label--1">
+											<span>🇬🇧 перевір свій рівень англійської</span>
+										</div>
+										<div class="content-trial-lesson__label content-trial-lesson__label--2">
+											<span>🎯 отримай особистий план навчання</span>
+										</div>
+										<div class="content-trial-lesson__label content-trial-lesson__label--3">
+											<span>📚 вивчи 3000 слів вже на першому занятті</span>
+										</div>
+										<div class="content-trial-lesson__label content-trial-lesson__label--4">
+											<span>🖥 познайомся з платформою</span>
+										</div>
+									</div>
+								</div>
+								<form data-fls-form="" action="files/sendmail/sendmail.php" method="POST" class="trial-lesson__form form-trial-lesson">
+									<input required type="text" name="name" placeholder="Імʼя" class="form-trial-lesson__input input">
+									<input required id="phone" data-fls-itltel="" type="tel" name="phone" placeholder="+380 (ХХ)-ХХХ-ХХ-ХХ" class="form-trial-lesson__input input">
+									<button type="submit" class="form-trial-lesson__button button button--yellow">Записатись на урок</button>
+								</form>
+								<div class="trial-lesson__image">
+									<picture>
+										<img alt="Image" src="./assets/img/trial-lesson/image.webp">
+									</picture>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section class="page__how-study how-study">
+					<div class="how-study__container">
+						<div data-fls-watcher-threshold="0.7" data-fls-watcher="" class="how-study__title titleblock">
+							<h2 class="titleblock__title">
+								<span>Як проходить</span>
+								навчання?
+							</h2>
+						</div>
+						<div data-fls-watcher-threshold="0.5" data-fls-watcher="" class="how-study__steps">
+							<div class="how-study__column how-study__column--left">
+								<div class="how-study__row">
+									<div class="how-study__step step-how-study step-how-study--1">
+										<span class="step-how-study__num">1</span>
+										<h3 class="step-how-study__title">Обираєш програму</h3>
+										<div class="step-how-study__text">
+											Ми допомагаємо обрати курс і наставника, які підходять саме тобі — за цілями, рівнем та характером.
+										</div>
+									</div>
+									<div class="how-study__step step-how-study step-how-study--2">
+										<span class="step-how-study__num">2</span>
+										<h3 class="step-how-study__title">Отримуєш доступ до  онлайн-платформи</h3>
+										<div class="step-how-study__text">
+											Усі матеріали, уроки й домашні завдання — в одному місці. Просто відкриваєш і навчаєшся без зайвих клопотів.
+										</div>
+									</div>
+								</div>
+								<div class="how-study__row">
+									<div class="how-study__step step-how-study step-how-study--3">
+										<span class="step-how-study__num">3</span>
+										<h3 class="step-how-study__title">Займаєшся у комфортному ритмі</h3>
+										<div class="step-how-study__text">
+											Графік підлаштовується під тебе — ранкові, вечірні чи вихідні заняття, як зручно саме тобі.
+										</div>
+									</div>
+									<div class="how-study__step step-how-study step-how-study--4">
+										<span class="step-how-study__num">4</span>
+										<h3 class="step-how-study__title">Результат вже з перших тижнів</h3>
+										<div class="step-how-study__text">
+											Ти починаєш говорити впевненіше, розумієш більше й отримуєш реальне задоволення від англійської.
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="how-study__column how-study__column--right">
+								<div class="how-study__step step-how-study step-how-study--5">
+									<div class="step-how-study__body">
+										<span class="step-how-study__num">5</span>
+										<h3 class="step-how-study__title">
+											Справжній
+											<span>Level up</span>
+											у твоїй розмовній англійській
+										</h3>
+										<div class="step-how-study__text">
+											Закінчуючи загальний курс у школі Go2Success, ти можеш розраховувати на освоєння рівня С1 (Advanced), що відкриє перед тобою безліч нових можливостей.
+										</div>
+									</div>
+									<a href="#" data-fls-scrollto-header="" data-fls-scrollto=".tariffs" class="step-how-study__button button">Почати навчання</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section class="page__stopping stopping">
+					<div class="stopping__container">
+						<div data-fls-watcher-threshold="0.3" data-fls-watcher="" class="stopping__body">
+							<div class="stopping__content">
+								<div class="stopping__title titleblock">
+									<h2 class="titleblock__title">
+										Що тебе
+										<span>зупиняє?</span>
+									</h2>
+								</div>
+								<div class="stopping__labels">
+									<div class="stopping__label stopping__label--1">💼 Хвилююсь, що не отримаю бажану роботу через низький рівень англійської</div>
+									<div class="stopping__label stopping__label--2">⏳ Боюсь почати, бо здається, що не вистачить часу на навчання</div>
+									<div class="stopping__label stopping__label--3">💬 Знаю граматику, але не можу заговорити</div>
+									<div class="stopping__label stopping__label--4">🔁 Уже кілька разів починав і кидав — бо не бачив результату</div>
+									<div class="stopping__label stopping__label--5">🙈 Соромлюсь говорити при інших</div>
+									<div class="stopping__label stopping__label--6">📉 Втрачаю мотивацію, коли не бачу швидкого прогресу</div>
+									<div class="stopping__label stopping__label--7">🫢 Хвилююся, що не зможу висловитись англійською, навіть якщо знаю слова</div>
+									<div class="stopping__label stopping__label--8">😬 Боюсь зробити помилку й виглядати нерозумно</div>
+									<div class="stopping__label stopping__label--9">🧠 Думаю, що вже запізно вчити англійську</div>
+									<div class="stopping__label stopping__label--10">🧩 Відчуваю прогалини у граматиці й через це постійно сумніваюся в собі</div>
+								</div>
+								<div class="stopping__image">
+									<picture>
+										<img alt="Image" src="./assets/img/stopping/image.webp">
+									</picture>
+								</div>
+								<div class="stopping__text">
+									<p>Твої страхи — не перешкода.</p>
+									<p>Ми допоможемо впоратися з кожним.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section class="page__why-us why-us">
+					<div class="why-us__container">
+						<div data-fls-watcher-threshold="0.8" data-fls-watcher="" class="why-us__title titleblock">
+							<h2 class="titleblock__title">
+								Чому
+								<span>обирають нас</span>
+							</h2>
+						</div>
+						<div data-fls-watcher-threshold="0.6" data-fls-watcher="" class="why-us__items">
+							<div class="why-us__item item-why-us item-why-us--1">
+								<div class="item-why-us__icon">15+</div>
+								<div class="item-why-us__body">
+									<h3 class="item-why-us__title">
+										Років
+										<span>досвіду</span>
+										в навчанні
+									</h3>
+									<div class="item-why-us__text">Знаємо, як пояснити складне просто і зробити навчання ефективним.</div>
+								</div>
+							</div>
+							<div class="why-us__item item-why-us item-why-us--2">
+								<div class="item-why-us__icon">📚</div>
+								<div class="item-why-us__body">
+									<h3 class="item-why-us__title">
+										<span>11 322</span>
+										проведених уроки
+									</h3>
+									<div class="item-why-us__text">Ми відточили програму до дрібниць — кожен урок дає реальний результат.</div>
+								</div>
+							</div>
+							<div class="why-us__item item-why-us item-why-us--3">
+								<div class="item-why-us__icon">
+									<picture>
+										<img alt="Image" src="./assets/img/why-us/icon_money.webp">
+									</picture>
+								</div>
+								<div class="item-why-us__body">
+									<h3 class="item-why-us__title">
+										<span>Доступне</span>
+										навчання
+									</h3>
+									<div class="item-why-us__text">
+										У нас адекватні ціни без переплат. Якісні заняття, які може собі дозволити кожен.
+									</div>
+								</div>
+							</div>
+							<div class="why-us__item item-why-us item-why-us--4">
+								<div class="item-why-us__icon">🎯</div>
+								<div class="item-why-us__body">
+									<h3 class="item-why-us__title">
+										<span>Індивідуальний</span>
+										підхід
+									</h3>
+									<div class="item-why-us__text">Ми підбираємо темп, методику і матеріали під ваш рівень та цілі навчання.</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section class="page__team team">
+					<div class="team__container">
+						<div class="team__body">
+							<div data-fls-slider="" class="team__slider swiper">
+								<div class="team__wrapper swiper-wrapper">
+									<div data-fls-watcher-threshold="0.5" data-fls-watcher="" data-fls-watcher-once="" class="team__slide swiper-slide slide-team">
+										<div class="slide-team__content slide-team__content--anim">
+											<h2 class="slide-team__name slide-team__name--anim">Олена</h2>
+											<div class="slide-team__position slide-team__position--anim">Засновниця школи Go2Success</div>
+											<div class="slide-team__text slide-team__text--anim">
+												<p>
+													“Я викладаю англійську онлайн дітям, підліткам і дорослим вже більше 15 років, готую студентів до різних іспитів, допомагаю досягати поставлених цілей.
+												</p>
+												<p>
+													Головним моїм завданням як викладача є зацікавити студентів англійською мовою, навчити їх говорити з упевненістю, подолати труднощі в граматиці, словниковому запасі, аудіюванні та письмі. Я вмію розговорити навіть самих сором’язливих учнів!
+												</p>
+												<p>
+													Уроки проходять на інтерактивній онлайн-платформі. Вивчення англійської мови цікаве і захоплююче. Я впевнена, що зовсім скоро ви будете задоволені своїми результатами і прогресом.
+                              З нетерпінням чекаю вас на заняттях!“
+												</p>
+											</div>
+										</div>
+										<div class="slide-team__image slide-team__image--anim">
+											<picture>
+												<img alt="Image" src="./assets/img/team/founder.webp">
+											</picture>
+										</div>
+									</div>
+									<div class="team__slide swiper-slide slide-team">
+										<div class="slide-team__content">
+											<h2 class="slide-team__name">Єлизавета</h2>
+											<div class="slide-team__position">Викладач школи Go2Success</div>
+											<div class="slide-team__text">
+												<p>
+													“Я викладаю англійську вже понад 5 років і щиро люблю свою справу. Працюю з дітьми, підлітками та дорослими — допомагаю покращити шкільну англійську, розвинути розмовні навички чи опанувати бізнес-лексику.
+												</p>
+												<p>
+													Закінчила Херсонський державний університет (англійська мова та література). Мала нагоду побувати у мовному таборі в США, завдяки чому маю гарний американський акцент і природну вимову.
+												</p>
+												<p>
+													Навчаю студентів рівнів від A1 до C1. На моїх уроках завжди комфортна атмосфера, багато практики і впевненість, що кожен може заговорити англійською легко!”
+												</p>
+											</div>
+										</div>
+										<div class="slide-team__image">
+											<picture>
+												<img alt="Image" src="./assets/img/team/image_1.webp">
+											</picture>
+										</div>
+									</div>
+									<div class="team__slide swiper-slide slide-team">
+										<div class="slide-team__content">
+											<h2 class="slide-team__name">Тетяна</h2>
+											<div class="slide-team__position">Викладач школи Go2Success</div>
+											<div class="slide-team__text">
+												<p>
+													“Я навчаю дітей англійської вже понад рік і обожнюю бачити, як вони роблять свої перші впевнені кроки у вивченні мови.
+												</p>
+												<p>
+													Закінчила факультет історії, політології та міжнародних відносин, де здобула спеціальність «Міжнародні відносини, суспільні комунікації та регіональні студії».
+												</p>
+												<p>
+													Працюю в команді школи Go to Success вже більше року. Викладаю дітям віком від 6 до 11 років (рівні A1–A2). На уроках створюю атмосферу, у якій дітям цікаво вчитися, легко запам’ятовується нове і з’являється впевненість говорити англійською.”
+												</p>
+											</div>
+										</div>
+										<div class="slide-team__image">
+											<picture>
+												<img alt="Image" src="./assets/img/team/image_2.webp">
+											</picture>
+										</div>
+									</div>
+								</div>
+								<div data-fls-watcher-threshold="0.3" data-fls-watcher="" class="team__slider-controls">
+									<button type="button" class="team-slider--button team-slider--button-prev --icon-arrow"></button>
+									<button type="button" class="team-slider--button team-slider--button-next --icon-arrow"></button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section class="page__banner-tests banner-tests">
+					<div class="banner-tests__container">
+						<div data-fls-watcher-threshold="0.5" data-fls-watcher="" class="banner-tests__body">
+							<div class="banner-tests__content">
+								<h2 class="banner-tests__title">Готуємо до НМТ та ЄВІ</h2>
+								<div class="banner-tests__text">
+									<p>Підтягнемо знання і закриємо всі прогалини в англійській</p>
+								</div>
+								<a href="#" data-fls-popup-link="popup-lesson" class="banner-tests__button button button--yellow">Записатись на урок</a>
+								<div class="banner-tests__label">заняття - 550 грн</div>
+							</div>
+							<div class="banner-tests__image">
+								<picture>
+									<img alt="pen" src="./assets/img/banner-tests/pen.webp">
+								</picture>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section class="page__reviews reviews">
+					<div class="reviews__box">
+						<div data-fls-watcher-threshold="0.5" data-fls-watcher="" class="reviews__title titleblock title__container">
+							<h2 class="titleblock__title">
+								<span>Відгуки</span>
+								наших студентів
+							</h2>
+						</div>
+						<div class="reviews__marquees">
+							<div class="reviews__marquee-row">
+								<div data-fls-marquee="" data-fls-marquee-pause="" data-fls-marquee-space="20">
+									<div class="reviews__marquee-item item-marquee-reviews">
+										<div class="item-marquee-reviews__text">
+											<p>
+												Займаюсь індивідуально вже пів року — результат відчутний. На роботі почав вільно спілкуватися з клієнтами з-за кордону. Дуже зручно, що можна самому обирати кількість занять і формат.
+											</p>
+										</div>
+										<div class="item-marquee-reviews__info">
+											<div class="item-marquee-reviews__icon --icon-user"></div>
+											<div class="item-marquee-reviews__name">Ігор В.</div>
+										</div>
+									</div>
+									<div class="reviews__marquee-item item-marquee-reviews">
+										<div class="item-marquee-reviews__text">
+											<p>
+												Дуже сподобалося навчатися у Олени, дуже приємна у спілкуванні, спокійна, добре пояснює. Дуже дякую за приділений мені час!
+											</p>
+										</div>
+										<div class="item-marquee-reviews__info">
+											<div class="item-marquee-reviews__icon --icon-user"></div>
+											<div class="item-marquee-reviews__name">Іван Волков</div>
+										</div>
+									</div>
+									<div class="reviews__marquee-item item-marquee-reviews">
+										<div class="item-marquee-reviews__text">
+											<p>
+												Раніше я постійно забував слова і губився під час розмови. Тепер бачу прогрес: почав мислити англійською! Дуже комфортна атмосфера і підтримка викладача.
+											</p>
+										</div>
+										<div class="item-marquee-reviews__info">
+											<div class="item-marquee-reviews__icon --icon-user"></div>
+											<div class="item-marquee-reviews__name">Олександр</div>
+										</div>
+									</div>
+									<div class="reviews__marquee-item item-marquee-reviews">
+										<div class="item-marquee-reviews__text">
+											<p>
+												Дитина чекає кожного уроку! Для неї англійська стала грою, а не нудними вправами. Я бачу, як вона вже сама намагається щось сказати англійською вдома.
+											</p>
+										</div>
+										<div class="item-marquee-reviews__info">
+											<div class="item-marquee-reviews__icon --icon-user"></div>
+											<div class="item-marquee-reviews__name">Марія</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="reviews__marquee-row">
+								<div data-fls-marquee="" data-fls-marquee-direction="right" data-fls-marquee-pause="" data-fls-marquee-space="20">
+									<div class="reviews__marquee-item item-marquee-reviews">
+										<div class="item-marquee-reviews__text">
+											<p>
+												Мені подобається, що ми говоримо про реальні теми — музику, фільми, TikTok, подорожі. Викладач не просто «вчить», а реально допомагає висловлювати думки англійською. Тепер я можу підтримати розмову з друзями з інших країн.
+											</p>
+										</div>
+										<div class="item-marquee-reviews__info">
+											<div class="item-marquee-reviews__icon --icon-user"></div>
+											<div class="item-marquee-reviews__name">Максим</div>
+										</div>
+									</div>
+									<div class="reviews__marquee-item item-marquee-reviews">
+										<div class="item-marquee-reviews__text">
+											<p>
+												Після першого місяця занять я вперше заговорила англійською без страху! Уроки дуже живі, ми багато спілкуємось і навіть жартуємо. Вперше навчання не здається обов’язком, а приносить задоволення
+											</p>
+										</div>
+										<div class="item-marquee-reviews__info">
+											<div class="item-marquee-reviews__icon --icon-user"></div>
+											<div class="item-marquee-reviews__name">Олена</div>
+										</div>
+									</div>
+									<div class="reviews__marquee-item item-marquee-reviews">
+										<div class="item-marquee-reviews__text">
+											<p>
+												Дуже сподобалася методика Playback — спочатку було незвично, але потім я зрозуміла, як сильно це допомагає не боятися помилок. Здається, що вчуся природно, як дитина.
+											</p>
+										</div>
+										<div class="item-marquee-reviews__info">
+											<div class="item-marquee-reviews__icon --icon-user"></div>
+											<div class="item-marquee-reviews__name">Ірина</div>
+										</div>
+									</div>
+									<div class="reviews__marquee-item item-marquee-reviews">
+										<div class="item-marquee-reviews__text">
+											<p>
+												Люблю, що тут не нудно! Постійна практика, цікаві теми, можна обговорювати навіть улюблені серіали англійською. Відчуваю прогрес з кожного уроку.
+											</p>
+										</div>
+										<div class="item-marquee-reviews__info">
+											<div class="item-marquee-reviews__icon --icon-user"></div>
+											<div class="item-marquee-reviews__name">Дмитро П.</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section class="page__faq faq">
+					<div class="faq__container">
+						<div class="faq__body">
+							<div data-fls-watcher-threshold="0.5" data-fls-watcher="" class="faq__title titleblock">
+								<h2 class="titleblock__title">
+									Поширені
+									<span>запитання</span>
+								</h2>
+							</div>
+							<div data-fls-watcher-threshold="0.5" data-fls-watcher="" data-fls-spollers="" class="faq__spollers spollers">
+								<details data-fls-spollers-open="" class="spollers__item spollers__item--faq spollers__item--1">
+									<summary class="spollers__title spollers__title--faq">
+										<span>Для яких рівней підходить вивчення англійскої мови в Go2Success?</span>
+									</summary>
+									<div class="spollers__body">
+										<p>Ми навчаємо студентів від рівня Beginner до Advanced.</p>
+									</div>
+								</details>
+								<details class="spollers__item spollers__item--faq spollers__item--2">
+									<summary class="spollers__title spollers__title--faq">Наскільки складний інтерфейс платформи?</summary>
+									<div class="spollers__body">
+										<p>
+											Інтерфейс платформи простий. Усі курси, які Ви проходите, видно у Вашому особистому кабінеті, є доступ до домашніх завдань і тестів, а також представлені бонуси за різні дії на платформі.
+										</p>
+									</div>
+								</details>
+								<details class="spollers__item spollers__item--faq spollers__item--3">
+									<summary class="spollers__title spollers__title--faq">Як часто треба займатися англійською?</summary>
+									<div class="spollers__body">
+										<p>
+											Залежно від ваших цілей і встановлених термінів можна займатися стільки, скільки хочете. Ми рекомендуємо заняття 2-4 рази на тиждень для досягнення максимального результату.
+										</p>
+									</div>
+								</details>
+								<details class="spollers__item spollers__item--faq spollers__item--4">
+									<summary class="spollers__title spollers__title--faq">Якщо я не можу бути присутнім на уроці, що мені робити?</summary>
+									<div class="spollers__body">
+										<p>
+											Якщо виникає непередбачувана ситуація або ж у вас різко змінюються плани і ви не можете прийти на урок, то повідомте про це своєму викладачеві будь-яким зручним для вас способом не менше, ніж за 3 години до уроку. Ми перенесемо це заняття.
+										</p>
+									</div>
+								</details>
+								<details class="spollers__item spollers__item--faq spollers__item--5">
+									<summary class="spollers__title spollers__title--faq">Чи можна відмінити заняття?</summary>
+									<div class="spollers__body">
+										У нас немає відмін, але є переноси. При інтенсивності занять 2 р/тиж можна перенести урок 2 р/міс, але переноси лише з поважної причини. Для досягнення максимального результату ми рекомендуємо не пропускати заняття, бо це напряму впливає на ваш прогрес.
+									</div>
+								</details>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section class="page__banner-invite banner-invite">
+					<div class="banner-invite__container">
+						<div data-fls-watcher-threshold="0.5" data-fls-watcher="" class="banner-invite__body">
+							<div class="banner-invite__content">
+								<div class="banner-invite__title titleblock">
+									<h2 class="titleblock__title titleblock__title--yellow-white">
+										<span>Запроси друга</span>
+										— отримай знижку на урок!
+									</h2>
+								</div>
+							</div>
+							<div class="banner-invite__image">
+								<picture>
+									<source media="(max-width: 600px)" srcset="./assets/img/banner-invite/image-600.webp" type="image/webp">
+									<img alt="Image" src="./assets/img/banner-invite/image.webp">
+								</picture>
+							</div>
+							<div class="banner-invite__label">200 грн</div>
+						</div>
+					</div>
+				</section>
+			</main>
+			<footer data-fls-footer="" class="footer">
+				<div class="footer__container">
+					<div class="footer__main main-footer">
+						<div class="main-footer__content">
+							<div class="main-footer__logo">
+								<img src="./assets/img/logo-footer.svg" alt="logo">
+							</div>
+							<div class="main-footer__address address-main-footer">
+								<div class="address-main-footer__label label-footer">Адреса:</div>
+								<div class="address-main-footer__value">Level 1, 12 Sample St, Sydney NSW 2000</div>
+							</div>
+							<div class="main-footer__contacts contacts-main-footer">
+								<div class="contacts-main-footer__label label-footer">Контакти:</div>
+								<div class="contacts-main-footer__body">
+									<a href="tel:0954744263" class="contacts-main-footer__phone">095 474 42 63</a>
+									<a href="mailto:go2success.school@gmail.com" class="contacts-main-footer__mail">go2success.school@gmail.com</a>
+								</div>
+							</div>
+							<div class="main-footer__socials">
+								<a href="https://www.facebook.com/" target="_blank" class="main-footer__socials-item">
+									<img src="./assets/img/icons/logo_facebook.svg" alt="facebook">
+								</a>
+								<a href="https://www.instagram.com/" target="_blank" class="main-footer__socials-item">
+									<img src="./assets/img/icons/logo_instagram.svg" alt="instagram">
+								</a>
+								<a href="https://web.telegram.org/" target="_blank" class="main-footer__socials-item">
+									<img src="./assets/img/icons/logo_telegram.svg" alt="telegram">
+								</a>
+							</div>
+						</div>
+						<div class="main-footer__navigation navigation-main-footer">
+							<nav class="navigation-main-footer__body">
+								<ul class="navigation-main-footer__list">
+									<li class="navigation-main-footer__item">
+										<a href="#" data-fls-scrollto-header="" data-fls-scrollto=".about" class="navigation-main-footer__link">PlayBack</a>
+									</li>
+									<li class="navigation-main-footer__item">
+										<a href="#" data-fls-scrollto-header="" data-fls-scrollto=".tariffs" class="navigation-main-footer__link">Тарифи</a>
+									</li>
+									<li class="navigation-main-footer__item">
+										<a href="#" data-fls-scrollto-header="" data-fls-scrollto=".methodology" class="navigation-main-footer__link">Про школу</a>
+									</li>
+									<li class="navigation-main-footer__item">
+										<a href="#" data-fls-scrollto-header="" data-fls-scrollto=".reviews" class="navigation-main-footer__link">Відгуки</a>
+									</li>
+									<li class="navigation-main-footer__item">
+										<a href="#" data-fls-scrollto-header="" data-fls-scrollto=".faq" class="navigation-main-footer__link">FAQ</a>
+									</li>
+								</ul>
+								<ul class="navigation-main-footer__list">
+									<li class="navigation-main-footer__item">
+										<a href="#" data-fls-scrollto-header="" data-fls-scrollto=".about" data-for-kids="" class="navigation-main-footer__link">Для дітей</a>
+									</li>
+									<li class="navigation-main-footer__item">
+										<a href="#" data-fls-scrollto-header="" data-fls-scrollto=".about" data-for-teenagers="" class="navigation-main-footer__link">Для підлітків</a>
+									</li>
+									<li class="navigation-main-footer__item">
+										<a href="#" data-fls-scrollto-header="" data-fls-scrollto=".about" data-for-adults="" class="navigation-main-footer__link">Для дорослих</a>
+									</li>
+									<li class="navigation-main-footer__item">
+										<a href="#" data-fls-scrollto-header="" data-fls-scrollto=".about" data-for-professions="" class="navigation-main-footer__link">Для професії</a>
+									</li>
+									<li class="navigation-main-footer__item">
+										<a href="#" data-fls-scrollto-header="" data-fls-scrollto=".about" class="navigation-main-footer__link">Speaking Club</a>
+									</li>
+								</ul>
+							</nav>
+						</div>
+					</div>
+					<div class="footer__bottom bottom-footer">
+						<div class="bottom-footer__copy">© Go2Success 2025</div>
+						<div class="bottom-footer__power">
+							Powered by
+							<a href="https://delancer.pro/">delancer.pro</a>
+						</div>
+						<div class="bottom-footer__policy">
+							<a href="#" target="_blank" class="bottom-footer__policy-link">Політика конфіденційності</a>
+							<a href="#" target="_blank" class="bottom-footer__offer-link">Договір публічної оферти</a>
+						</div>
+					</div>
+				</div>
+			</footer>
+		</div>
+		<div data-fls-popup="popup-lesson" aria-hidden="true" class="popup popup-lesson">
+			<div data-fls-popup-wrapper="" class="popup-lesson__wrapper popup__wrapper">
+				<div data-fls-popup-body="" class="popup-lesson__body popup__body">
+					<button data-fls-popup-close="" type="button" class="popup-lesson__close popup__close">
+						<svg width="32" height="32" viewbox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path d="M22.5633 9.36391L23.0346 9.83526C23.295 10.0956 23.2951 10.5177 23.0347 10.778L17.6135 16.1992L23.0347 21.6204C23.295 21.8807 23.295 22.3028 23.0346 22.5632L22.5633 23.0345C22.3029 23.2949 21.8808 23.2949 21.6205 23.0346L16.1993 17.6134L10.7782 23.0346C10.5178 23.2949 10.0957 23.2949 9.83535 23.0346L9.36399 22.5632C9.10363 22.3029 9.10362 21.8807 9.36397 21.6204L14.7851 16.1992L9.36395 10.7781C9.1036 10.5177 9.10363 10.0956 9.36398 9.83524L9.83534 9.36388C10.0957 9.10352 10.5178 9.1035 10.7782 9.36385L16.1993 14.785L21.6205 9.36384C21.8809 9.10348 22.3029 9.10355 22.5633 9.36391Z" fill="#FFD15F"></path>
+						</svg>
+					</button>
+					<div data-fls-popup-content="" class="popup-lesson__box">
+						<div class="popup-lesson__content">
+							<div data-fls-titleblock="" class="popup-lesson__title titleblock">
+								<h2 class="titleblock__title titleblock__title--yellow-white">
+									<span>Запис</span>
+									на урок
+								</h2>
+							</div>
+							<div class="popup-lesson__text">
+								<p>Підберемо зручний для тебе час і формат</p>
+							</div>
+							<form data-fls-form="dev" action="files/sendmail/sendmail.php" method="POST" class="popup-lesson__form form-popup-lesson">
+								<input required type="text" name="name" placeholder="Імʼя" class="form-popup-lesson__input input">
+								<input required id="phonePopup" data-fls-input="" type="tel" name="phone" placeholder="+380 (ХХ)-ХХХ-ХХ-ХХ" class="form-popup-lesson__input input">
+								<button type="submit" class="form-popup-lesson__button button button--yellow">Записатись на урок</button>
+							</form>
+						</div>
+						<div class="popup-lesson__image">
+							<picture>
+								<img alt="Image" src="./assets/img/trial-lesson/image.webp">
+							</picture>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div data-fls-popup="popup-prices" aria-hidden="true" class="popup popup-prices">
+			<div data-fls-popup-wrapper="" class="popup-prices__wrapper popup__wrapper">
+				<div data-fls-popup-body="" class="popup-prices__body popup__body">
+					<button data-fls-popup-close="" type="button" class="popup-prices__close popup__close">
+						<svg width="32" height="32" viewbox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path d="M22.5633 9.36391L23.0346 9.83526C23.295 10.0956 23.2951 10.5177 23.0347 10.778L17.6135 16.1992L23.0347 21.6204C23.295 21.8807 23.295 22.3028 23.0346 22.5632L22.5633 23.0345C22.3029 23.2949 21.8808 23.2949 21.6205 23.0346L16.1993 17.6134L10.7782 23.0346C10.5178 23.2949 10.0957 23.2949 9.83535 23.0346L9.36399 22.5632C9.10363 22.3029 9.10362 21.8807 9.36397 21.6204L14.7851 16.1992L9.36395 10.7781C9.1036 10.5177 9.10363 10.0956 9.36398 9.83524L9.83534 9.36388C10.0957 9.10352 10.5178 9.1035 10.7782 9.36385L16.1993 14.785L21.6205 9.36384C21.8809 9.10348 22.3029 9.10355 22.5633 9.36391Z" fill="#FFD15F"></path>
+						</svg>
+					</button>
+					<div data-fls-popup-content="" class="popup-prices__box">
+						<div class="popup-prices__head">
+							<h2 class="popup-prices__title">
+								<span>Індивідуальні</span>
+								заняття
+							</h2>
+							<div class="popup-prices__text">Плануй навчання наперед  і насолоджуйся Netflix у подарунок 🍿</div>
+						</div>
+						<div class="popup-prices__items">
+							<div class="popup-prices__item item-popup-prices">
+								<div class="item-popup-prices__info">
+									<h3 class="item-popup-prices__title">
+										<span>1</span>
+										заняття
+									</h3>
+									<div class="item-popup-prices__gift"></div>
+									<div class="item-popup-prices__price">500 грн</div>
+								</div>
+								<a href="#" class="item-popup-prices__button button">Купити</a>
+							</div>
+							<div class="popup-prices__item item-popup-prices">
+								<div class="item-popup-prices__info">
+									<h3 class="item-popup-prices__title">
+										<span>2</span>
+										заняття
+									</h3>
+									<div class="item-popup-prices__gift"></div>
+									<div class="item-popup-prices__price">1000 грн</div>
+								</div>
+								<a href="#" class="item-popup-prices__button button">Купити</a>
+							</div>
+							<div class="popup-prices__item item-popup-prices">
+								<div class="item-popup-prices__info">
+									<h3 class="item-popup-prices__title">
+										<span>4</span>
+										заняття
+									</h3>
+									<div class="item-popup-prices__gift"></div>
+									<div class="item-popup-prices__price">2000 грн</div>
+								</div>
+								<a href="#" class="item-popup-prices__button button">Купити</a>
+							</div>
+							<div class="popup-prices__item item-popup-prices">
+								<div class="item-popup-prices__info">
+									<h3 class="item-popup-prices__title">
+										<span>8</span>
+										заняття
+									</h3>
+									<div class="item-popup-prices__gift"></div>
+									<div class="item-popup-prices__price">4000 грн</div>
+								</div>
+								<a href="#" class="item-popup-prices__button button">Купити</a>
+							</div>
+							<div class="popup-prices__item item-popup-prices item-popup-prices--gift">
+								<div class="item-popup-prices__info">
+									<h3 class="item-popup-prices__title">
+										<span>16</span>
+										заняття
+									</h3>
+									<div class="item-popup-prices__gift">
+										+ Підписка
+										<span>Netflix</span>
+										на 1 місяць в подарунок
+									</div>
+									<div class="item-popup-prices__price">8000 грн</div>
+								</div>
+								<a href="#" class="item-popup-prices__button button">Купити</a>
+								<div class="item-popup-prices__gift-icon">🎁</div>
+							</div>
+							<div class="popup-prices__item item-popup-prices item-popup-prices--gift">
+								<div class="item-popup-prices__info">
+									<h3 class="item-popup-prices__title">
+										<span>24</span>
+										заняття
+									</h3>
+									<div class="item-popup-prices__gift">
+										+ Підписка
+										<span>Netflix</span>
+										на 1 місяць в подарунок
+									</div>
+									<div class="item-popup-prices__price">12000 грн</div>
+								</div>
+								<a href="#" class="item-popup-prices__button button">Купити</a>
+								<div class="item-popup-prices__gift-icon">🎁</div>
+							</div>
+						</div>
+						<div class="popup-prices__contacts contacts-popup-prices">
+							<h3 class="contacts-popup-prices__title">Залишились питання? Напиши нам ☺️</h3>
+							<a href="#" class="contacts-popup-prices__button button button--yellow">Задати питання</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script src="/files/intl-tel-input/intlTelInput.js?v=1761986318087"></script>
+		<noscript>
+			<link rel="stylesheet" crossorigin="" href="./css/index.min.css?v=1761986318087">
+		</noscript>
+	</body>
+</html>
